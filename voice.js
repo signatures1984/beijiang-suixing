@@ -52,8 +52,8 @@ export function createSpeaker({synthesis,Utterance,onStatus=()=>{},onBusy=()=>{}
       current=new Utterance(part);current.lang='zh-CN';current.rate=.95;
       const voices=synthesis.getVoices();const chinese=voices.find(v=>/^zh[-_]CN/i.test(v.lang))||voices.find(v=>/^zh/i.test(v.lang));
       if(chinese)current.voice=chinese;
-      current.onstart=()=>{clearTimeout(startTimer);if(token===generation)onStatus('正在播报 · '+title);};
-      current.onend=()=>{clearTimeout(startTimer);next();};
+      current.onstart=()=>{if(token===generation){clearTimeout(startTimer);onStatus('正在播报 · '+title);}};
+      current.onend=()=>{if(token===generation){clearTimeout(startTimer);next();}};
       current.onerror=()=>{if(token===generation){stop('语音未能播放，请检查手机中文语音设置后重试');onFailure();}};
       startTimer=setTimeout(()=>{if(token===generation){stop('语音未能启动，请检查手机中文语音设置后重试');onFailure();}},10000);
       try{synthesis.speak(current);}catch{stop('语音未能播放，请换用支持中文语音的浏览器');onFailure();}

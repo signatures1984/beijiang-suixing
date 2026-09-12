@@ -1,6 +1,7 @@
 import {distanceKm,activeDay,selectPoints} from './model.js';
 import {mountWeather} from './weather-panel.js';
 import {mountVoice} from './voice-guide.js';
+import {photoMarkup} from './media.js';
 const $=id=>document.getElementById(id),labels={scenery:'风景',culture:'文化',food:'美食'};
 const state={day:activeDay(),category:'all',range:'route',position:null};
 let data,map,placesLayer,routeLayer,userLayer,watchId,weatherPanel,voiceGuide,locating=false,lastPositionAt=0;
@@ -38,10 +39,20 @@ function renderMap(items){
 function renderItinerary(){
  const d=data.days.find(d=>d.day===state.day);
  $('itinerary').innerHTML=d?'<h2 id="itinerary-title">D'+d.day+' · '+esc(d.name)+'</h2><p>'+esc(d.text)+'</p><p class="note">'+esc(d.note)+'</p>':'<h2 id="itinerary-title">9 月 19 — 26 日 · 北疆 8 日</h2><p>乌鲁木齐 → 天池 → 阿勒泰 → 禾木 → 喀纳斯 → 乌尔禾 → 赛里木湖 → 独山子 → 乌鲁木齐</p><p class="note">D1 为自由活动；D6 住宿为独山子 / 奎屯二选一，具体以出团通知为准。</p>';
+ renderJourney();
+}
+function renderJourney(){
+ const stories=(data.journeyStories||[]).filter(s=>!state.day||s.day===state.day),panel=$('journey');
+ if(panel.dataset.day===String(state.day))return;
+ panel.dataset.day=String(state.day);
+ if(!stories.length){panel.hidden=true;return;}panel.hidden=false;
+ panel.innerHTML='<summary>路上也值得看 · '+stories.length+' 段</summary><div class="journey-stories">'+stories.map(s=>'<article class="journey-story">'+photoMarkup(s)+'<div><p class="journey-day">D'+s.day+' · 沿途背景</p><h3>'+esc(s.title)+'</h3><p>'+esc(s.summary)+'</p><button type="button" data-story="'+esc(s.id)+'">在车上听这段</button><details><summary>配图与资料来源</summary>'+photoMarkup(s,{detail:true})+'<p class="source">'+s.sources.map(link=>'<a href="'+esc(link.url)+'" target="_blank" rel="noopener">'+esc(link.title)+'</a>').join('')+'</p></details></div></article>').join('')+'</div><p class="journey-note">沿途风景以实际道路、天气和车窗视野为准；这些介绍不增加行程停靠点。</p>';
+ panel.open=!!state.day;
+ panel.querySelectorAll('[data-story]').forEach(button=>button.onclick=()=>{const s=stories.find(s=>s.id===button.dataset.story);voiceGuide?.read({...s,name:s.title},true);});
 }
 function card(p){
  const area=p.location?.area||data.anchors[p.anchor]?.name||'',dayText=p.days.map(d=>'D'+d).join(' / ');
- return '<button class="place-card" type="button" data-id="'+esc(p.id)+'" aria-label="查看'+esc(p.name)+'详情">'+(p.image?'<img src="'+esc(p.image)+'" alt="赛里木湖历史实景照片" loading="lazy" width="1024" height="683">':'')+'<div class="card-inner"><div class="card-top"><span class="badge '+p.category+'">'+categoryText(p)+'</span><span class="distance">'+(p.distance==null?'':(p.kind==='dish'||p.kind==='regional'?'区域约 ':'')+distance(p))+'</span></div><h4>'+esc(p.name)+'</h4><p>'+esc(p.summary)+'</p><p class="card-meta">'+esc(area)+' · '+dayText+(p.kind==='restaurant'?' · 已收录地点':'')+'</p></div></button>';
+ return '<button class="place-card" type="button" data-id="'+esc(p.id)+'" aria-label="查看'+esc(p.name)+'详情">'+photoMarkup(p)+'<div class="card-inner"><div class="card-top"><span class="badge '+p.category+'">'+categoryText(p)+'</span><span class="distance">'+(p.distance==null?'':(p.kind==='dish'||p.kind==='regional'?'区域约 ':'')+distance(p))+'</span></div><h4>'+esc(p.name)+'</h4><p>'+esc(p.summary)+'</p><p class="card-meta">'+esc(area)+' · '+dayText+(p.kind==='restaurant'?' · 已收录地点':'')+'</p></div></button>';
 }
 function render(){
  if(!data)return;renderItinerary();weatherPanel?.render(state.day);
@@ -67,7 +78,7 @@ function showDetail(id){
  const osm=a.osm?'https://www.openstreetmap.org/'+a.osm:'https://www.openstreetmap.org/?mlat='+a.lat+'&mlon='+a.lon+'#map=16/'+a.lat+'/'+a.lon;
  const regional=p.kind==='dish'||p.kind==='regional';
  const external='https://uri.amap.com/marker?position='+a.lon+','+a.lat+'&name='+encodeURIComponent(p.name+(regional?' · 相关地区':''))+'&coordinate=wgs84&src=beijiang-suixing&callnative=0';
- $('detail-content').innerHTML='<span class="badge '+p.category+'">'+categoryText(p)+'</span><h2>'+esc(p.name)+'</h2><p class="detail-meta">'+esc(a.area||a.name||'沿途地点')+' · '+p.days.map(n=>'D'+n).join(' / ')+(d==null?'':' · 直线约 '+d.toFixed(1)+' 公里')+'</p>'+(p.image?'<img src="'+esc(p.image)+'" alt="赛里木湖历史实景照片">':'')+'<section class="detail-summary"><h3>简介</h3><p>'+esc(p.summary)+'</p><p>'+esc(p.body)+'</p></section><div class="listen-actions"><button type="button" id="listen-summary">听简介</button><button type="button" id="listen-details">听详细介绍</button></div><section class="expanded-details"><h3>详细介绍</h3>'+(p.details||[]).map(s=>'<h4>'+esc(s.title)+'</h4><p>'+esc(s.text)+'</p>').join('')+'</section><p class="detail-tip">'+esc(p.tip)+'</p>'+(regional?'<p class="detail-meta">位置表示相关地区，不是餐馆或文化场馆的准确地址。</p>':'')+(p.kind==='restaurant'?'<p class="detail-meta">依据公开地图收录。未核实当前营业状态、价格或评分，出发前请再次查看。</p>':'')+'<div class="detail-actions"><button type="button" id="show-on-map">'+(regional?'查看相关区域':'地图上查看')+'</button><a href="'+esc(external)+'" target="_blank" rel="noopener">用高德查看'+(regional?'区域':'地点')+'</a></div><p class="source">'+(p.sources||[]).map(s=>'<a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.title)+'</a>').join('')+'<a href="'+esc(osm)+'" target="_blank" rel="noopener">地图位置来源</a><br>资料整理：'+data.verified+'。'+(p.image?'照片：George Lu / CC BY 2.0；为历史实景照片。':'')+'</p>';
+ $('detail-content').innerHTML='<span class="badge '+p.category+'">'+categoryText(p)+'</span><h2>'+esc(p.name)+'</h2><p class="detail-meta">'+esc(a.area||a.name||'沿途地点')+' · '+p.days.map(n=>'D'+n).join(' / ')+(d==null?'':' · 直线约 '+d.toFixed(1)+' 公里')+'</p>'+photoMarkup(p,{detail:true})+'<section class="detail-summary"><h3>简介</h3><p>'+esc(p.summary)+'</p><p>'+esc(p.body)+'</p></section><div class="listen-actions"><button type="button" id="listen-summary">听简介</button><button type="button" id="listen-details">听详细介绍</button></div><section class="expanded-details"><h3>详细介绍</h3>'+(p.details||[]).map(s=>'<h4>'+esc(s.title)+'</h4><p>'+esc(s.text)+'</p>').join('')+'</section><p class="detail-tip">'+esc(p.tip)+'</p>'+(regional?'<p class="detail-meta">位置表示相关地区，不是餐馆或文化场馆的准确地址。</p>':'')+(p.kind==='restaurant'?'<p class="detail-meta">依据公开地图收录。未核实当前营业状态、价格或评分，出发前请再次查看。</p>':'')+'<div class="detail-actions"><button type="button" id="show-on-map">'+(regional?'查看相关区域':'地图上查看')+'</button><a href="'+esc(external)+'" target="_blank" rel="noopener">用高德查看'+(regional?'区域':'地点')+'</a></div><p class="source">'+(p.sources||[]).map(s=>'<a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.title)+'</a>').join('')+'<a href="'+esc(osm)+'" target="_blank" rel="noopener">地图位置来源</a><br>资料整理：'+data.verified+'。'+'</p>';
  $('show-on-map').onclick=()=>{$('detail').close();if(map){map.setView([a.lat,a.lon],regional?11:14);L.popup().setLatLng([a.lat,a.lon]).setContent(esc(p.name)+(regional?' · 地区参考':'')).openOn(map);$('map').scrollIntoView({behavior:'smooth',block:'center'});}else $('map-error').hidden=false;};
  $('listen-summary').onclick=()=>voiceGuide?.read(p,false);
  $('listen-details').onclick=()=>voiceGuide?.read(p,true);

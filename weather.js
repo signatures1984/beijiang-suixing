@@ -6,6 +6,11 @@ export function beijingDate(now = new Date()) {
   const p = new Intl.DateTimeFormat('en-CA', {timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now);
   return ['year','month','day'].map(k=>p.find(x=>x.type===k).value).join('-');
 }
+export function forecastDates(count,now=new Date()) {
+  if(![3,7,14].includes(Number(count)))return [];
+  const start=Date.parse(beijingDate(now)+'T00:00:00Z');
+  return Array.from({length:Number(count)},(_,i)=>new Date(start+i*86400000).toISOString().slice(0,10));
+}
 export function forecastUrl(data, now = new Date()) {
   const ids = [...new Set(weatherPlaces.flat())];
   const past = Math.max(0, Math.min(92, Math.floor((Date.parse(beijingDate(now))-Date.parse(data.startDate))/86400000)));
