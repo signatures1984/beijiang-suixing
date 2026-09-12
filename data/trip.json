@@ -256,7 +256,23 @@
           "title": "抵达当天怎么安排",
           "text": "这是第一天自由活动的可选点。建议根据航班、入住和体力决定是否上山，预留返回酒店的时间。穿便于走台阶的鞋，随身带水；拍照前先站稳，傍晚停留时关注现场开放提示。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/hongshan.jpg",
+        "alt": "红山公园园景",
+        "caption": "红山公园园景。页面缩放与裁切展示。",
+        "author": "Man21",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%9Cr%C3%BCmqi,_Hongshan_Park.JPG",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+        "illustrative": false
+      },
+      "narration": "想先认识一下乌鲁木齐，可以从红山公园开始。红山的名字，来自山体赭红色的岩石，山上的红山塔也是这座城市的地标。散步时先看看近处的树木和山石，再到开放的观景位置，把楼群、道路和远山放进同一幅画面，城市的轮廓就清楚了。这里是抵达当天的自由活动建议，可以根据入住时间和体力决定走多远。若空气通透，试着找找天山的方向；看不见也没关系，慢慢走一段，就是很好的旅程开场。",
+      "audio": {
+        "src": "audio/hongshan.mp3",
+        "shortEnd": 23.752
+      },
+      "narrationShort": "想先认识一下乌鲁木齐，可以从红山公园开始。红山的名字，来自山体赭红色的岩石，山上的红山塔也是这座城市的地标。散步时先看看近处的树木和山石，再到开放的观景位置，把楼群、道路和远山放进同一幅画面，城市的轮廓就清楚了。"
     },
     {
       "id": "tianchi",
@@ -292,7 +308,23 @@
           "title": "当天衔接与穿着",
           "text": "这天游湖后还要经S21前往阿勒泰，建议先问清区间车站点和集合位置。带一件方便增减的外套，在阴影处或起风时及时穿上；以当天景区天气和导游安排决定步行范围，地图湖心点只作区域参考。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/tianchi.jpg",
+        "alt": "天山天池与周围山林",
+        "caption": "天山天池与周围山林。页面缩放与裁切展示。",
+        "author": "Bernard Gagnon",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tianchi_Lake.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "illustrative": false
+      },
+      "narration": "游览天山天池时，可以试着把风景从近到远看一遍。先是湖岸和水面，接着是针叶林，再往上，就是博格达山地的山脊。天气合适时，还能寻找更高处雪峰的轮廓。这座高山湖泊的好看之处，就在这些层次叠在一起。沿开放步道走一小段，水面的颜色和反光可能又变了，不用一直追着一个拍照角度。当天游湖后还要经沙漠公路去阿勒泰，记好集合位置，湖边起风时把外套穿上，慢慢看，也给换乘留些时间。",
+      "audio": {
+        "src": "audio/tianchi.mp3",
+        "shortEnd": 16.499
+      },
+      "narrationShort": "游览天山天池时，可以试着把风景从近到远看一遍。先是湖岸和水面，接着是针叶林，再往上，就是博格达山地的山脊。天气合适时，还能寻找更高处雪峰的轮廓。"
     },
     {
       "id": "hemu",
@@ -329,7 +361,23 @@
           "title": "住一晚的实用安排",
           "text": "这条线路在禾木住宿，可把当晚散步和翌日出发前的短暂观景分开安排。提前保存酒店位置与集合时间，清晨出门带外套；进入院落、拍摄居民或体验民俗活动前，先沟通是否允许以及是否收费。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/hemu.jpg",
+        "alt": "禾木河畔的村落与木屋",
+        "caption": "禾木河畔的村落与木屋。页面缩放与裁切展示。",
+        "author": "Bohao Zhao Tongfei",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hemu_River_and_Mongolian_Village.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "illustrative": false
+      },
+      "narration": "说起禾木，很多人先想到木屋。真正走进村里，可以再多看一层：屋子怎样沿着道路排列，村庄又怎样坐落在河谷和森林之间。近看是院子、屋顶和日常生活，换到开放的高处看，才发现整个村子与山林连在一起。这次会在禾木住一晚，可以把傍晚散步和清晨看景分开安排，不用一次走完。秋色、晨雾和星空都要看天气，遇到什么就好好欣赏什么。拍居民或进院子前打声招呼，会让这段旅行更舒服。",
+      "audio": {
+        "src": "audio/hemu.mp3",
+        "shortEnd": 21.07
+      },
+      "narrationShort": "说起禾木，很多人先想到木屋。真正走进村里，可以再多看一层：屋子怎样沿着道路排列，村庄又怎样坐落在河谷和森林之间。近看是院子、屋顶和日常生活，换到开放的高处看，才发现整个村子与山林连在一起。"
     },
     {
       "id": "bridge",
@@ -365,7 +413,23 @@
           "title": "与村落散步一起游览",
           "text": "行程把禾木桥列为外观看点，建议与村内散步一起安排，无须单独留出一次长距离往返。以现场开放通道为准，桥面人多时先通过再取景；不越过护栏靠近急流，返回时确认酒店方向和团队集合时间。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/bridge.jpg",
+        "alt": "禾木木桥历史照片（2006年），桥体现状以现场为准",
+        "caption": "禾木木桥历史照片（2006年），桥体现状以现场为准。页面缩放与裁切展示。",
+        "author": "neverdance",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%A6%BE%E6%9C%A8%E9%95%87_%E6%9C%A8%E6%A1%A5_-_panoramio.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "illustrative": false
+      },
+      "narration": "走到禾木桥一带，不妨给自己几分钟，先听听河水的声音。桥横跨禾木河，把村庄和两边河岸连起来，桥旁的水流、树林和远处木屋，正好能放在一起看。拍照时可以让桥成为前景，也可以沿着河道找水流延伸的方向，换个安全角度，感觉就会不同。禾木桥适合和村内散步一起安排，不用专门赶一趟。桥面人多时先通过，再到允许停留的位置取景；比起挤在一个机位上，留一点空间慢慢感受，往往更有意思。",
+      "audio": {
+        "src": "audio/bridge.mp3",
+        "shortEnd": 15.288
+      },
+      "narrationShort": "走到禾木桥一带，不妨给自己几分钟，先听听河水的声音。桥横跨禾木河，把村庄和两边河岸连起来，桥旁的水流、树林和远处木屋，正好能放在一起看。"
     },
     {
       "id": "kanas",
@@ -401,7 +465,23 @@
           "title": "把湖区与三湾连起来",
           "text": "当天还包含神仙湾、月亮湾和卧龙湾，之后前往乌尔禾，建议为区间车换乘留出余量。先确认集合站点，再决定湖边步行距离。地图标记的是湖区参考位置，入口、下车点与实际步道应以现场指示为准。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/kanas.jpg",
+        "alt": "喀纳斯湖与阿尔泰山林",
+        "caption": "喀纳斯湖与阿尔泰山林。页面缩放与裁切展示。",
+        "author": "Fanghong",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:LakeKanas.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "illustrative": false
+      },
+      "narration": "看喀纳斯湖，可以先别急着拍照，停下来比较一下近岸和远处的水色。这座湖在阿尔泰山中，形成与古冰川活动有关，周围的山体和森林把湖面围在中间。光线、季节和云影不同，湖水的颜色也会变，所以不必拿一张网上的照片当作标准。找一处开放湖岸，看一会儿倒影和岸线，已经很值得。当天还有三湾，之后要去乌尔禾，先记清区间车站点与集合时间，再决定沿湖走多远，留些从容给后面的风景。",
+      "audio": {
+        "src": "audio/kanas.mp3",
+        "shortEnd": 15.314
+      },
+      "narrationShort": "看喀纳斯湖，可以先别急着拍照，停下来比较一下近岸和远处的水色。这座湖在阿尔泰山中，形成与古冰川活动有关，周围的山体和森林把湖面围在中间。"
     },
     {
       "id": "fairy",
@@ -437,7 +517,23 @@
           "title": "短停留也能有收获",
           "text": "到站后先记住接驳位置，按开放栈道和观景台游览。若时间有限，建议把注意力集中在一处水岸交界，不必匆忙寻找每个角度。清晨或阴影下停留可加一层衣服，脚下湿滑时放慢速度，不进入河滩湿地取景。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/fairy.jpg",
+        "alt": "喀纳斯神仙湾河谷",
+        "caption": "喀纳斯神仙湾河谷。页面缩放与裁切展示。",
+        "author": "Elaine, 张迎梓，Elaine_zyz",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Escape-%E9%80%83.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": false
+      },
+      "narration": "神仙湾适合慢下来，看水面、河滩和树林怎样交在一起。这里的河水比较宽缓，地形的变化也影响着水流。它以云雾中的景象出名，但有雾和没雾，其实是两种看法。有雾时，可以看树木一层层隐进远处；天气晴朗，就看岸线、倒影和水面的小小反光。先拍一张整体，再选一小片树林作主角，会比不停变焦更容易留下印象。晨雾并不天天都有，按当天节奏欣赏就好，也别忘了给接驳车和下一处河湾留出时间。",
+      "audio": {
+        "src": "audio/fairy.mp3",
+        "shortEnd": 17.15
+      },
+      "narrationShort": "神仙湾适合慢下来，看水面、河滩和树林怎样交在一起。这里的河水比较宽缓，地形的变化也影响着水流。它以云雾中的景象出名，但有雾和没雾，其实是两种看法。"
     },
     {
       "id": "moon",
@@ -473,7 +569,23 @@
           "title": "步行之前先确认时间",
           "text": "若想沿步道继续走，先向导游确认开放路段、下一集合点和可用时间。不要根据地图上的直线距离估算步行耗时，上下台阶与候车都需要时间。人多时轮流在观景位置拍摄，不在狭窄台阶上停住队伍。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/moon.jpg",
+        "alt": "喀纳斯月亮湾的河道与森林",
+        "caption": "喀纳斯月亮湾的河道与森林。页面缩放与裁切展示。",
+        "author": "Yanxutong1215",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%96%80%E7%BA%B3%E6%96%AF%E6%99%AF%E5%8C%BA%E6%9C%88%E4%BA%AE%E6%B9%BE.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": false
+      },
+      "narration": "到了月亮湾的开放观景位置，可以让目光跟着河水拐个弯。这里最醒目的就是那条弯曲的水面，河流长期塑造河岸，才留下了这样的轮廓。水中的草滩还常被人联想成脚印，名字很好记，也给看风景多添了一点想象。先看完整曲线，再看两边树林和草滩的位置，会更有层次。如果想沿步道继续走，先问清下一处集合点和可用时间。地图上看着不远，台阶、步行和候车都要花时间，选一段走得舒服的就很好。",
+      "audio": {
+        "src": "audio/moon.mp3",
+        "shortEnd": 13.075
+      },
+      "narrationShort": "到了月亮湾的开放观景位置，可以让目光跟着河水拐个弯。这里最醒目的就是那条弯曲的水面，河流长期塑造河岸，才留下了这样的轮廓。"
     },
     {
       "id": "dragon",
@@ -509,7 +621,23 @@
           "title": "留下完整的结束画面",
           "text": "游览顺序以当天接驳安排为准。建议拍一张同时包含河洲、岸边森林和远山的照片，再根据时间补充细节，不必追着固定机位走。停留时照顾同行人的步速，离开前再次确认集合点；河岸取景应始终留在开放区域内。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/dragon.jpg",
+        "alt": "喀纳斯卧龙湾",
+        "caption": "喀纳斯卧龙湾。页面缩放与裁切展示。",
+        "author": "Gpwitteveen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_from_the_road_into_Xinjiang_Kanas_National_Geopark.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": false
+      },
+      "narration": "卧龙湾的名字，来自河心那片像龙一样的河洲。河道局部受堆积物影响，水流慢下来，泥沙逐渐留下，便形成了这样的景观。你可以先找整体轮廓，再看水从两边经过的方向。如果前面已经看过神仙湾和月亮湾，不妨在脑海里做个小比较：宽缓的水面、转弯的河道，还有这里的河心洲，同一条河呈现了不同样子。拍照时把河洲、树林和远山一起放进画面，比较容易表现空间。留在开放区域看景，出发前再确认一下集合位置。",
+      "audio": {
+        "src": "audio/dragon.mp3",
+        "shortEnd": 17.111
+      },
+      "narrationShort": "卧龙湾的名字，来自河心那片像龙一样的河洲。河道局部受堆积物影响，水流慢下来，泥沙逐渐留下，便形成了这样的景观。你可以先找整体轮廓，再看水从两边经过的方向。"
     },
     {
       "id": "devil",
@@ -549,7 +677,23 @@
           "title": "把防风与补水放在手边",
           "text": "当天游览后还要赶往赛里木湖，建议随身带水、帽子和防风衣物，提前确认观光车与集合安排。雅丹区域按规定线路游览，不攀爬岩体或进入封闭区域；起风扬沙时先收好手机相机，再依工作人员提示行动。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/devil.jpg",
+        "alt": "乌尔禾魔鬼城的雅丹岩体",
+        "caption": "乌尔禾魔鬼城的雅丹岩体。页面缩放与裁切展示。",
+        "author": "M3th04",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E7%96%86%E4%B9%8C%E5%B0%94%E7%A6%BE%E9%AD%94%E9%AC%BC%E5%9F%8E%E6%99%AF%E8%A7%82.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "illustrative": false
+      },
+      "narration": "世界魔鬼城的看法，可以轻松一点：先别急着找景区标出的名字，看看这些岩体让你想到了什么。像城堡，像动物，还是别的形状？乌尔禾的雅丹，是岩层经历长期风蚀和间歇性水蚀留下的自然景观，换个角度，轮廓就可能完全不同。远处看形状，近处从指定位置看表面的层次和沟槽，感受又不一样。这里适合和同伴各说各的发现。风沙起来时收好相机，水和防风衣放在手边，再按观光车的安排继续看下一个角度。",
+      "audio": {
+        "src": "audio/devil.mp3",
+        "shortEnd": 22.879
+      },
+      "narrationShort": "世界魔鬼城的看法，可以轻松一点：先别急着找景区标出的名字，看看这些岩体让你想到了什么。像城堡，像动物，还是别的形状？乌尔禾的雅丹，是岩层经历长期风蚀和间歇性水蚀留下的自然景观，换个角度，轮廓就可能完全不同。"
     },
     {
       "id": "sayram",
@@ -591,7 +735,22 @@
           "title": "湖边停留的准备",
           "text": "环湖停靠与第二次入园细节以导游安排为准。建议把防风外套放在随手可取处，拍照前确认上下车位置。观赏水鸟时保持距离，不追赶投喂，不走入封闭草地；地图湖心标记不能作为入口或湖边停车点导航。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/sayram.jpg",
+        "alt": "赛里木湖湖面与岸边草地",
+        "caption": "赛里木湖历史实景照片，页面缩放与裁切展示。",
+        "author": "George Lu",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Sailimu,_aka_Sayram.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+      },
+      "narration": "赛里木湖很适合看两遍。第一次先看湖面和远山有多开阔，第二次再留意近岸波纹、草地和云影。它坐落在天山西段的高山盆地，是一座微咸的冷水湖，周围山地让湖面显得格外舒展。大家熟悉的“大西洋最后一滴眼泪”，是一个很有画面感的称呼。真正欣赏时，自己的眼睛比照片里的固定蓝色更可靠，天气和角度会带来不同变化。湖边风起时加件衣服，跟着安排选择停靠点，把两次看湖留成两个不同的记忆。",
+      "audio": {
+        "src": "audio/sayram.mp3",
+        "shortEnd": 19.116
+      },
+      "narrationShort": "赛里木湖很适合看两遍。第一次先看湖面和远山有多开阔，第二次再留意近岸波纹、草地和云影。它坐落在天山西段的高山盆地，是一座微咸的冷水湖，周围山地让湖面显得格外舒展。"
     },
     {
       "id": "canyon",
@@ -631,7 +790,20 @@
           "title": "观景与体验分别安排",
           "text": "第七天随后还经S101前往肯斯瓦特并返回乌鲁木齐，建议先完成主要观景，再按时间决定额外体验。玻璃桥等项目是否开放、是否另收费，以订单和现场为准。不越过围栏探身拍照，放好手机及容易被风吹走的物品。"
         }
-      ]
+      ],
+      "narration": "独山子大峡谷可以先看全貌，再看细节。在开放观景位置，留意平坦地面怎样突然向下切开，谷壁又怎样一层层延伸出去，这种落差就是它很吸引人的地方。接着挑一小片谷壁，看看沟壑的疏密和光影，有时像折起来的纸，有时又像一排雕刻的线条，那都是观景时有趣的联想。拍照可以带上一点远处地面，让纵深更清楚。当天后面还有省道一零一线和肯斯瓦特，先把主要风景看够，再按时间考虑额外体验就好。",
+      "audio": {
+        "src": "audio/canyon.mp3",
+        "shortEnd": 15.653
+      },
+      "narrationShort": "独山子大峡谷可以先看全貌，再看细节。在开放观景位置，留意平坦地面怎样突然向下切开，谷壁又怎样一层层延伸出去，这种落差就是它很吸引人的地方。",
+      "photo": {
+        "src": "images/canyon.png",
+        "alt": "独山子大峡谷河床与层叠谷壁",
+        "caption": "独山子大峡谷资料图，页面缩放与裁切展示。",
+        "author": "独山子区政府网站 · 政府办",
+        "sourceUrl": "https://www.dsz.gov.cn/dsz/fjms/202308/e24b7fe00d944957a39673ecc2c28961.shtml"
+      }
     },
     {
       "id": "kenswat",
@@ -667,7 +839,20 @@
           "title": "按外观游览的节奏停留",
           "text": "本线路把肯斯瓦特列为外观游览，停车位置与停留时间由现场条件和导游安排决定。建议提前收好下车物品，在指定区域拍照后及时集合，不把地图参考点当作可直达的入口，也不进入水利设施或未开放的岸边。"
         }
-      ]
+      ],
+      "narration": "看肯斯瓦特时，除了蓝色水面，还可以想想这片水和下游生活的联系。这里其实是玛纳斯河上的水库，是水利枢纽的一部分，承担着防洪、灌溉和发电等功能。河水在山谷间汇集，岸线跟着山势转弯，才有了这样曲折延伸的景象。在允许停留的位置，顺着水面看看远处，再比较近岸与远处的颜色；天气和光线不同，蓝绿的感觉也会变。这次是外观游览，停车点和时间听现场安排，不必为了照片去找没有开放的湖岸。",
+      "audio": {
+        "src": "audio/kenswat.mp3",
+        "shortEnd": 15.64
+      },
+      "narrationShort": "看肯斯瓦特时，除了蓝色水面，还可以想想这片水和下游生活的联系。这里其实是玛纳斯河上的水库，是水利枢纽的一部分，承担着防洪、灌溉和发电等功能。",
+      "photo": {
+        "src": "images/kenswat.jpg",
+        "alt": "肯斯瓦特水库的蓝绿水面与周围山谷",
+        "caption": "肯斯瓦特景区资料图，来源页注明图片源自玛纳斯县人民政府网；页面缩放与裁切展示。",
+        "author": "玛纳斯县人民政府网 / 兵团水利局转载",
+        "sourceUrl": "https://btslj.xjbt.gov.cn/c/2025-07-13/8423871.shtml"
+      }
     },
     {
       "id": "silk",
@@ -699,7 +884,23 @@
           "title": "参观安排",
           "text": "这是抵达乌鲁木齐后的可选阅读与参观内容。出发前查看博物馆预约和当日展陈，实物是否展出以现场为准；若时间不足，先把这段故事收藏，返程有空再安排。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/silk.jpg",
+        "alt": "新疆博物馆藏“五星出东方利中国”织锦护臂",
+        "caption": "新疆博物馆藏“五星出东方利中国”织锦护臂。页面缩放与裁切展示。",
+        "author": "N509FZ",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AFive_Stars_Rising_in_the_East_Benefiting_for_the_Central_Plains_armband_(20230921114351).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "illustrative": false
+      },
+      "narration": "如果抵达乌鲁木齐后有时间去新疆博物馆，可以留意丝路织锦的故事。尼雅遗址出土的那件织锦护臂，把文字、云气、瑞兽和星纹织进了细密的丝线里，工艺和当时人们的吉祥愿望，都留在这一小片织物上。看展时先找文字，再辨认图案，最后看看几种颜色怎样交织，会比只读一遍展签更有意思。五色丝线还联系着古人的五行观念。具体实物是否展出，要看当天展陈；即使这次时间不够，也可以带着这个故事认识新疆的文化交流。",
+      "audio": {
+        "src": "audio/silk.mp3",
+        "shortEnd": 19.494
+      },
+      "narrationShort": "如果抵达乌鲁木齐后有时间去新疆博物馆，可以留意丝路织锦的故事。尼雅遗址出土的那件织锦护臂，把文字、云气、瑞兽和星纹织进了细密的丝线里，工艺和当时人们的吉祥愿望，都留在这一小片织物上。"
     },
     {
       "id": "myth",
@@ -732,7 +933,23 @@
           "title": "理解这段文化",
           "text": "瑶池相会属于神话，不等于已证实的历史事件，也不能替代湖泊形成的自然解释。当天还要前往阿勒泰，听故事可结合原有游湖时间，不必为寻找传说地点另外离队。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/tianchi.jpg",
+        "alt": "天山天池山水实景，西王母故事是当地神话传说",
+        "caption": "天山天池山水实景，西王母故事是当地神话传说。页面缩放与裁切展示。",
+        "author": "Bernard Gagnon",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tianchi_Lake.jpg",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "illustrative": false
+      },
+      "narration": "在天池看山水，也可以听一段西王母的故事。当地流传的神话里，周穆王西行、瑶池相会是常见情节，湖泊和山峰因此多了一层想象。阜康申报的西王母神话，在二〇一四年列入了国家级非遗名录，记录的是世代讲述的文化传统。不同人讲，细节可能不一样，这正是民间故事有意思的地方。听的时候可以看看故事怎样与眼前山水联系起来。把它当作传说来欣赏，就能同时保留想象，也了解湖泊真实的自然背景。",
+      "audio": {
+        "src": "audio/myth.mp3",
+        "shortEnd": 22.684
+      },
+      "narrationShort": "在天池看山水，也可以听一段西王母的故事。当地流传的神话里，周穆王西行、瑶池相会是常见情节，湖泊和山峰因此多了一层想象。阜康申报的西王母神话，在二〇一四年列入了国家级非遗名录，记录的是世代讲述的文化传统。"
     },
     {
       "id": "ski",
@@ -766,7 +983,23 @@
           "title": "九月怎样体验",
           "text": "这次旅行以了解制作技艺和地方生活为主，行程没有承诺滑雪或制作体验。可以在阿勒泰、禾木听相关讲解，是否有开放展示以现场为准；不要把介绍中的冬季活动当作当天安排。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/ski.png",
+        "alt": "中国阿尔泰传统滑雪者使用单杖滑行",
+        "caption": "中国阿尔泰传统滑雪者使用单杖滑行。页面缩放与裁切展示。",
+        "author": "Photo: Espen Finstad, Oppland County Council.",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prehistoric_and_Medieval_Skis_from_Glaciers_and_Ice_Patches_in_Norway_Fig_8_Ma_Liqin,_traditional_Altai_skier,_with_single_pole.png",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": false
+      },
+      "narration": "说起阿勒泰，毛皮滑雪板是个很有意思的地方故事。木板下面覆着毛皮，配一根木杖，就成了山区冬天的出行工具。毛有顺逆方向，上坡时帮助抓住雪面，下坡时又能顺毛滑行，材料用得很巧。如果遇到实物展示，可以看看翘起的板头、绑脚的位置，还有毛皮怎么固定，再和现代滑雪板比一比。这次九月出行，主要是认识这种技艺和生活智慧，行程没有安排滑雪。有没有开放展示，跟着现场情况来，听一段讲解也很有收获。",
+      "audio": {
+        "src": "audio/ski.mp3",
+        "shortEnd": 19.468
+      },
+      "narrationShort": "说起阿勒泰，毛皮滑雪板是个很有意思的地方故事。木板下面覆着毛皮，配一根木杖，就成了山区冬天的出行工具。毛有顺逆方向，上坡时帮助抓住雪面，下坡时又能顺毛滑行，材料用得很巧。"
     },
     {
       "id": "village",
@@ -800,7 +1033,23 @@
           "title": "相处与游览",
           "text": "拍摄居民、进入院落或触碰生活用品前先征得同意。九月行程已安排禾木住宿，可在集合时间允许时慢慢看；村庄风貌还包括正常经营与生活，请尊重居民自己的节奏。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/hemu.jpg",
+        "alt": "禾木河畔木屋与村落生活环境",
+        "caption": "禾木河畔木屋与村落生活环境。页面缩放与裁切展示。",
+        "author": "Bohao Zhao Tongfei",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hemu_River_and_Mongolian_Village.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "illustrative": false
+      },
+      "narration": "在禾木散步，除了木屋的样子，也可以看看村庄怎样过日子。这里是蒙古族图瓦人的聚居地，也生活着哈萨克族等居民，森林、牧场、旅游经营和日常生活都交织在一起。可以观察屋子与院落怎样相连，或者在主人愿意时，听听他们讲季节变化和居住的故事。今天的禾木既有民居，也有民宿和商铺，都是村庄的一部分。如果想参加家访或体验，先问清内容与收费；拍居民、进入院子之前打个招呼，会让交流自然得多。",
+      "audio": {
+        "src": "audio/village.mp3",
+        "shortEnd": 16.968
+      },
+      "narrationShort": "在禾木散步，除了木屋的样子，也可以看看村庄怎样过日子。这里是蒙古族图瓦人的聚居地，也生活着哈萨克族等居民，森林、牧场、旅游经营和日常生活都交织在一起。"
     },
     {
       "id": "movie",
@@ -833,7 +1082,23 @@
           "title": "拍摄前的提醒",
           "text": "景区取景经历不代表每个位置都能找到电影同款画面。具体取景点以现场说明为准，拍照时按开放线路活动，留意风沙和集合时间；这里只补充文化背景，不额外增加影视基地游览。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/devil.jpg",
+        "alt": "乌尔禾魔鬼城的天然雅丹景观，并非电影剧照",
+        "caption": "乌尔禾魔鬼城的天然雅丹景观，并非电影剧照。页面缩放与裁切展示。",
+        "author": "M3th04",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E7%96%86%E4%B9%8C%E5%B0%94%E7%A6%BE%E9%AD%94%E9%AC%BC%E5%9F%8E%E6%99%AF%E8%A7%82.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "illustrative": false
+      },
+      "narration": "魔鬼城不只有地质故事，也曾走进《卧虎藏龙》等影视作品。那些奇特的岩体和开阔戈壁，本身就很有画面感，再加上机位、光线和剪辑，银幕上便出现了另一种空间。游览时可以试着当一会儿摄影师：找一块近处岩体做前景，把远处地貌和天空带进去，再看看有人物和没有人物，比例感觉有什么变化。不用执着于电影同款角度，具体取景点以现场介绍为准。沿开放线路拍自己的旅行画面，也能留下属于这次旅程的小片段。",
+      "audio": {
+        "src": "audio/movie.mp3",
+        "shortEnd": 16.408
+      },
+      "narrationShort": "魔鬼城不只有地质故事，也曾走进《卧虎藏龙》等影视作品。那些奇特的岩体和开阔戈壁，本身就很有画面感，再加上机位、光线和剪辑，银幕上便出现了另一种空间。"
     },
     {
       "id": "oil",
@@ -867,7 +1132,23 @@
           "title": "与本次行程的关系",
           "text": "这段内容属于途经地区的背景介绍，工业遗址没有列入本条A线既定项目。住宿可能安排在独山子或奎屯；若想另行参观，应先核实开放信息，并确保不影响次日峡谷和返程行程。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/oil.jpg",
+        "alt": "独山子石油工人俱乐部旧址",
+        "caption": "独山子石油工人俱乐部旧址。页面缩放与裁切展示。",
+        "author": "HaziiDozen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%8B%AC%E5%B1%B1%E5%AD%90%E7%9F%B3%E6%B2%B9%E5%B7%A5%E4%BA%BA%E4%BF%B1%E4%B9%90%E9%83%A8%EF%BC%88%E7%8B%AC%E5%B1%B1%E5%AD%90%E5%8C%BA%E5%B1%95%E8%A7%88%EF%BC%88%E5%8D%9A%E7%89%A9%EF%BC%89%E9%A6%86%EF%BC%8C%E8%A5%BF%E4%BE%A7%EF%BC%89.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": false
+      },
+      "narration": "经过独山子一带，可以把注意力从山川挪一点给城市。独山子是中国石油工业发祥地之一，早期油井、蒸馏釜和石油工人俱乐部等遗存，保存了生产技术，也留下了人们工作与生活的记忆。看相关介绍时，可以抓住三个线索：设备做什么用，什么时候建成，工人怎样生活。这样一座工业城市的来路，就更容易理解。这段是途经地区的背景故事，工业遗址并没有列入本次跟团项目；当天可能住独山子，也可能住奎屯，按团队安排即可。",
+      "audio": {
+        "src": "audio/oil.mp3",
+        "shortEnd": 17.945
+      },
+      "narrationShort": "经过独山子一带，可以把注意力从山川挪一点给城市。独山子是中国石油工业发祥地之一，早期油井、蒸馏釜和石油工人俱乐部等遗存，保存了生产技术，也留下了人们工作与生活的记忆。"
     },
     {
       "id": "naan",
@@ -902,7 +1183,23 @@
           "title": "旅途购买",
           "text": "先问清是否含芝麻、奶、肉或动物油脂，再按同行人数决定数量。带上车的馕请向店家确认包装和保存方法，尤其是带馅品种。这张卡介绍食物，地图标记是寻找区域，不保证附近某家店有售。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/naan.jpg",
+        "alt": "乌鲁木齐二道桥馕店的馕",
+        "caption": "乌鲁木齐二道桥馕店的馕。页面缩放与裁切展示。",
+        "author": "HaziiDozen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%8C%E9%81%93%E6%A1%A5_%E9%A6%95%E5%BA%972.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": false
+      },
+      "narration": "旅途中想尝一点新疆面食，馕是很方便的开始。看着都是圆饼，其实有芝麻馕、油馕、肉馕等不同做法，面团、配料和烤制方式一变，味道也会变。可以买少量两种，和同伴掰开分着尝，比较边缘与中间的口感，再配一口茶。遇到能观看制作的店铺，留意整形、压花和入炉，也挺有意思。点单前问问有没有奶、芝麻、肉或动物油脂，按自己的饮食习惯选择。要带上车的，再请店家说明包装和保存方法，尤其是带馅的品种。",
+      "audio": {
+        "src": "audio/naan.mp3",
+        "shortEnd": 14.859
+      },
+      "narrationShort": "旅途中想尝一点新疆面食，馕是很方便的开始。看着都是圆饼，其实有芝麻馕、油馕、肉馕等不同做法，面团、配料和烤制方式一变，味道也会变。"
     },
     {
       "id": "bao",
@@ -937,7 +1234,23 @@
           "title": "点单与时间",
           "text": "询问单个价格、出炉时间及馅料，刚出炉时留意内部热汁。乌鲁木齐自由活动时可寻找这种风味；返程日则先看送机时间。这张卡没有指定餐馆，具体营业和菜单仍需到店确认。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/bao.jpg",
+        "alt": "新疆烤包子实物参考，摄于阿克苏，并非沿途店铺出品",
+        "caption": "新疆烤包子实物参考，摄于阿克苏，并非沿途店铺出品。页面缩放与裁切展示。",
+        "author": "Windmemories",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:20231216_Samsa_of_Xinjiang_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": true
+      },
+      "narration": "烤包子可以从一小份开始尝。常见做法是薄面皮里包羊肉丁、洋葱和香料，折好后贴进馕坑烤，外皮和肉馅会带来不一样的口感。刚出炉时别急着大口咬，稍放一会儿，从边角慢慢尝，里面的汁水可能很烫。店与店的配方、大小不一样，先问清馅料、单价和出炉时间，再决定买几个。乌鲁木齐自由活动时可以留意这种风味，和同行的人分着吃，既能尝鲜，也给正餐留点胃口。返程那天记得先看看送机时间再安排。",
+      "audio": {
+        "src": "audio/bao.mp3",
+        "shortEnd": 21.239
+      },
+      "narrationShort": "烤包子可以从一小份开始尝。常见做法是薄面皮里包羊肉丁、洋葱和香料，折好后贴进馕坑烤，外皮和肉馅会带来不一样的口感。刚出炉时别急着大口咬，稍放一会儿，从边角慢慢尝，里面的汁水可能很烫。"
     },
     {
       "id": "tea",
@@ -976,7 +1289,23 @@
           "title": "先确认口味",
           "text": "奶茶可能与平时喝的甜味饮料不同，点单时问清咸甜、奶的种类及是否另加配料。对奶类或面粉有饮食限制时先说明。具体餐厅是否供应、几点开门及份量价格，以当天菜单为准。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/tea.jpg",
+        "alt": "哈萨克风味包尔萨克实物参考",
+        "caption": "哈萨克风味包尔萨克实物参考。页面缩放与裁切展示。",
+        "author": "Armanilo",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kazakh_culture_Baursak.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "illustrative": true
+      },
+      "narration": "在阿勒泰想换一种早餐，可以留意包尔萨克配奶茶。包尔萨克是哈萨克族传统油炸面食，面团切成小块再炸，常常出现在早餐和待客的餐桌上。吃的时候先尝一口面点，再喝一口奶茶，看看两种味道怎样搭在一起。这里的奶茶未必是平时喝的甜饮料，点之前问问咸甜、用什么奶，以及有没有额外配料，会更容易选到合口味的。几个人同行，可以先合点一份看看分量。若酒店已经安排早餐，也不用为了尝新一次吃得太多。",
+      "audio": {
+        "src": "audio/tea.mp3",
+        "shortEnd": 14.52
+      },
+      "narrationShort": "在阿勒泰想换一种早餐，可以留意包尔萨克配奶茶。包尔萨克是哈萨克族传统油炸面食，面团切成小块再炸，常常出现在早餐和待客的餐桌上。"
     },
     {
       "id": "naren",
@@ -1015,7 +1344,23 @@
           "title": "别只按菜名点单",
           "text": "先确认价格是按份、按盘还是按重量计算，并了解一份适合几个人。它兼有主食和肉菜，搭配其他菜时可少点一些面食。禾木行程中的这张卡仅提供饮食线索，不代表团餐包含或每家餐馆供应。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/naren.jpg",
+        "alt": "哈萨克斯坦肉与宽面做法参考；北疆那仁的配料与摆盘因店而异",
+        "caption": "哈萨克斯坦肉与宽面做法参考；北疆那仁的配料与摆盘因店而异。页面缩放与裁切展示。",
+        "author": "NataAllice",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%91%D0%B5%D1%88%D0%B1%D0%B0%D1%80%D0%BC%D0%B0%D0%BA_-_%D0%BA%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D0%BA%D0%BE%D0%B5_%D0%BD%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D0%B1%D0%BB%D1%8E%D0%B4%D0%BE.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": true
+      },
+      "narration": "那仁可以理解成肉、面和汤连在一起的一顿饭。常见做法会用马肉或羊肉搭配宽面，面条在肉汤里煮，再配上洋葱，也有使用熏肉的版本。上桌后可以先分别尝一口肉、一口面，再感受汤把它们的味道连起来。点菜时别只报菜名，先问当天用什么肉，一盘适合几个人，价格按份还是按重量算。它本身就有主食和肉菜，搭配别的菜时可以少点一些面食。这张介绍只是旅途中的风味线索，是否有售、团餐是否包含，都要看实际安排。",
+      "audio": {
+        "src": "audio/naren.mp3",
+        "shortEnd": 13.921
+      },
+      "narrationShort": "那仁可以理解成肉、面和汤连在一起的一顿饭。常见做法会用马肉或羊肉搭配宽面，面条在肉汤里煮，再配上洋葱，也有使用熏肉的版本。"
     },
     {
       "id": "fish",
@@ -1054,7 +1399,23 @@
           "title": "先把价格问明白",
           "text": "点单前确认鱼种、产地说明、重量单位、整条还是分份，以及加工费用是否另计。若按重量结算，请在制作前确认总价与份量。这张卡介绍湖区风味，不保证指定餐厅有货，也不是捕鱼活动安排。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/fish.jpg",
+        "alt": "高白鲑（Coregonus peled）物种参考，并非赛里木湖捕获或菜品照片",
+        "caption": "高白鲑（Coregonus peled）物种参考，并非赛里木湖捕获或菜品照片。页面缩放与裁切展示。",
+        "author": "Иллюстрация: Photolib.noaa.gov",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3A%D0%9F%D0%B5%D0%BB%D1%8F%D0%B4%D1%8C_(Coregonus_peled)._%D0%98%D0%BB%D0%BB%D1%8E%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F_%D0%BA_%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%83_%D0%98%D0%90_REGNUM_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": true
+      },
+      "narration": "赛里木湖高白鲑的故事，和冷水渔业有关。它并不是这座湖的原生鱼，当地从一九九八年起引进相关鱼卵，人工孵育后放入湖中生长，逐渐形成了今天的湖区风味。想尝一尝，可以看看菜单上的清蒸、盐焗或炭烤，再按人数和口味决定。点单前把鱼种、产地说明和计价方式问清楚，尤其是按斤还是按公斤，加工费有没有另算。整条鱼先确认重量和总价，吃起来会更省心。具体餐厅当天有没有供应，仍以店家实际菜单为准。",
+      "audio": {
+        "src": "audio/fish.mp3",
+        "shortEnd": 16.018
+      },
+      "narrationShort": "赛里木湖高白鲑的故事，和冷水渔业有关。它并不是这座湖的原生鱼，当地从一九九八年起引进相关鱼卵，人工孵育后放入湖中生长，逐渐形成了今天的湖区风味。"
     },
     {
       "id": "noodle",
@@ -1093,7 +1454,23 @@
           "title": "点单更省心",
           "text": "在奎屯或独山子停留时，可把它作为一顿热食的选择。先说清辣度、肉类及是否需要少油，询问正常面量和加面规则，不默认免费加面。若赶集合时间，也应先问等餐时间，以店铺当天情况为准。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/noodle.jpg",
+        "alt": "新疆拉条子实物参考，并非所列餐厅出品",
+        "caption": "新疆拉条子实物参考，并非所列餐厅出品。页面缩放与裁切展示。",
+        "author": "Air7538",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E7%96%86%E6%8B%89%E6%9D%A1%E5%AD%90.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": true
+      },
+      "narration": "旅行途中想吃一顿热乎的，新疆拌面是个容易上手的选择，也常叫拉条子。面条和炒菜搭配着吃，牛羊肉、辣椒、番茄，或者蔬菜鸡蛋，不同配菜就有不同味道。上桌后可以先拌一部分，尝尝菜汁和面条的比例，再按自己喜欢的口感调整。如果店里能看到拉面的过程，也可以留意面团怎样拉成粗细均匀的长条。点单时说清辣度和肉类，顺便问面量、加面规则与等餐时间，在奎屯或独山子停留时，就更好安排一顿从容的饭。",
+      "audio": {
+        "src": "audio/noodle.mp3",
+        "shortEnd": 16.682
+      },
+      "narrationShort": "旅行途中想吃一顿热乎的，新疆拌面是个容易上手的选择，也常叫拉条子。面条和炒菜搭配着吃，牛羊肉、辣椒、番茄，或者蔬菜鸡蛋，不同配菜就有不同味道。"
     },
     {
       "id": "food-osm-1313850168",
@@ -1133,7 +1510,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/restaurant-drink.jpg",
+        "alt": "饮品类别参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "caption": "饮品类别参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "author": "Sam Howzit",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALemonade.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫老树咖啡，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-1313850168.mp3",
+        "shortEnd": 21.994
+      },
+      "narrationShort": "这处餐饮地点叫老树咖啡，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。"
     },
     {
       "id": "food-osm-1313990713",
@@ -1173,7 +1566,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/noodle.jpg",
+        "alt": "面食品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "caption": "面食品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "author": "Air7538",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E7%96%86%E6%8B%89%E6%9D%A1%E5%AD%90.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫马有布牛肉面快餐，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-1313990713.mp3",
+        "shortEnd": 14.195
+      },
+      "narrationShort": "这处餐饮地点叫马有布牛肉面快餐，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。"
     },
     {
       "id": "food-osm-1313991597",
@@ -1213,7 +1622,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/restaurant-burger.jpg",
+        "alt": "汉堡品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "caption": "汉堡品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "author": "Renee Comet (photographer)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACheeseburger.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫肯德基，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-1313991597.mp3",
+        "shortEnd": 21.577
+      },
+      "narrationShort": "这处餐饮地点叫肯德基，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。"
     },
     {
       "id": "food-osm-1313996292",
@@ -1253,7 +1678,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/naan.jpg",
+        "alt": "新疆馕风味参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "caption": "新疆馕风味参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "author": "HaziiDozen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%8C%E9%81%93%E6%A1%A5_%E9%A6%95%E5%BA%972.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫宫廷御制秘制猪肚包鸡，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-1313996292.mp3",
+        "shortEnd": 14.65
+      },
+      "narrationShort": "这处餐饮地点叫宫廷御制秘制猪肚包鸡，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。"
     },
     {
       "id": "food-osm-1313997631",
@@ -1293,7 +1734,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/naan.jpg",
+        "alt": "新疆馕风味参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "caption": "新疆馕风味参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "author": "HaziiDozen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%8C%E9%81%93%E6%A1%A5_%E9%A6%95%E5%BA%972.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫重庆人家，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-1313997631.mp3",
+        "shortEnd": 21.994
+      },
+      "narrationShort": "这处餐饮地点叫重庆人家，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。"
     },
     {
       "id": "food-osm-1313998011",
@@ -1333,7 +1790,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/naan.jpg",
+        "alt": "新疆馕风味参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "caption": "新疆馕风味参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "author": "HaziiDozen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%8C%E9%81%93%E6%A1%A5_%E9%A6%95%E5%BA%972.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫江原道，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-1313998011.mp3",
+        "shortEnd": 21.643
+      },
+      "narrationShort": "这处餐饮地点叫江原道，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。"
     },
     {
       "id": "food-osm-1313999188",
@@ -1373,7 +1846,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/restaurant-hotpot.jpg",
+        "alt": "火锅品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "caption": "火锅品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "author": "3steph14",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHot_pot_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫澳洲豆捞，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-1313999188.mp3",
+        "shortEnd": 21.864
+      },
+      "narrationShort": "这处餐饮地点叫澳洲豆捞，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。"
     },
     {
       "id": "food-osm-1314003342",
@@ -1413,7 +1902,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/restaurant-hotpot.jpg",
+        "alt": "火锅品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "caption": "火锅品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "author": "3steph14",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3AHot_pot_2.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫味道江湖火锅，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-1314003342.mp3",
+        "shortEnd": 13.674
+      },
+      "narrationShort": "这处餐饮地点叫味道江湖火锅，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。"
     },
     {
       "id": "food-osm-1314005776",
@@ -1453,7 +1958,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/naan.jpg",
+        "alt": "新疆馕风味参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "caption": "新疆馕风味参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "author": "HaziiDozen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%8C%E9%81%93%E6%A1%A5_%E9%A6%95%E5%BA%972.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫小马快餐厅，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-1314005776.mp3",
+        "shortEnd": 22.189
+      },
+      "narrationShort": "这处餐饮地点叫小马快餐厅，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。"
     },
     {
       "id": "food-osm-1314006598",
@@ -1493,7 +2014,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/naan.jpg",
+        "alt": "新疆馕风味参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "caption": "新疆馕风味参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "author": "HaziiDozen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%8C%E9%81%93%E6%A1%A5_%E9%A6%95%E5%BA%972.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫尕小伙老碗鱼庄，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-1314006598.mp3",
+        "shortEnd": 13.843
+      },
+      "narrationShort": "这处餐饮地点叫尕小伙老碗鱼庄，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。"
     },
     {
       "id": "food-osm-1314007265",
@@ -1533,7 +2070,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/naan.jpg",
+        "alt": "新疆馕风味参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "caption": "新疆馕风味参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "author": "HaziiDozen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%8C%E9%81%93%E6%A1%A5_%E9%A6%95%E5%BA%972.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫血站大盘鸡，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-1314007265.mp3",
+        "shortEnd": 22.268
+      },
+      "narrationShort": "这处餐饮地点叫血站大盘鸡，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。"
     },
     {
       "id": "food-osm-1314019228",
@@ -1573,7 +2126,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/restaurant-dumplings.jpg",
+        "alt": "水饺品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "caption": "水饺品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "author": "N509FZ",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jiaozi_at_Xialinyuan_Dumplings_Restaurant,_Beijing_(20190528113622).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫特色混沌，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-1314019228.mp3",
+        "shortEnd": 21.955
+      },
+      "narrationShort": "这处餐饮地点叫特色混沌，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。"
     },
     {
       "id": "food-osm-1314019634",
@@ -1613,7 +2182,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/restaurant-dumplings.jpg",
+        "alt": "水饺品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "caption": "水饺品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "author": "N509FZ",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jiaozi_at_Xialinyuan_Dumplings_Restaurant,_Beijing_(20190528113622).jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫御仙饺子王，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-1314019634.mp3",
+        "shortEnd": 22.085
+      },
+      "narrationShort": "这处餐饮地点叫御仙饺子王，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。"
     },
     {
       "id": "food-osm-2301130266",
@@ -1653,7 +2238,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/restaurant-burger.jpg",
+        "alt": "汉堡品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "caption": "汉堡品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "author": "Renee Comet (photographer)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACheeseburger.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫肯德基，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-2301130266.mp3",
+        "shortEnd": 21.577
+      },
+      "narrationShort": "这处餐饮地点叫肯德基，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。"
     },
     {
       "id": "food-osm-2588158235",
@@ -1693,7 +2294,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/restaurant-pizza.jpg",
+        "alt": "披萨品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "caption": "披萨品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "author": "Nicholas Gemini",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APizza_Margherita.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫pizza hot，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-2588158235.mp3",
+        "shortEnd": 13.322
+      },
+      "narrationShort": "这处餐饮地点叫pizza hot，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。"
     },
     {
       "id": "food-osm-2603653109",
@@ -1732,7 +2349,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/restaurant-burger.jpg",
+        "alt": "汉堡品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "caption": "汉堡品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "author": "Renee Comet (photographer)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACheeseburger.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫德克士，在奎屯一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-2603653109.mp3",
+        "shortEnd": 21.382
+      },
+      "narrationShort": "这处餐饮地点叫德克士，在奎屯一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。"
     },
     {
       "id": "food-osm-3168059318",
@@ -1772,7 +2405,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/naan.jpg",
+        "alt": "新疆馕风味参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "caption": "新疆馕风味参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "author": "HaziiDozen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%8C%E9%81%93%E6%A1%A5_%E9%A6%95%E5%BA%972.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫火宴山（明园店），在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-3168059318.mp3",
+        "shortEnd": 13.882
+      },
+      "narrationShort": "这处餐饮地点叫火宴山（明园店），在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。"
     },
     {
       "id": "food-osm-4483316192",
@@ -1812,7 +2461,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/naan.jpg",
+        "alt": "新疆馕风味参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "caption": "新疆馕风味参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "author": "HaziiDozen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%8C%E9%81%93%E6%A1%A5_%E9%A6%95%E5%BA%972.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫缘起素食，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-4483316192.mp3",
+        "shortEnd": 22.007
+      },
+      "narrationShort": "这处餐饮地点叫缘起素食，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。"
     },
     {
       "id": "food-osm-9538502410",
@@ -1852,7 +2517,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/restaurant-drink.jpg",
+        "alt": "饮品品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "caption": "饮品品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "author": "Sam Howzit",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ALemonade.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫蜜雪冰城，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-9538502410.mp3",
+        "shortEnd": 22.033
+      },
+      "narrationShort": "这处餐饮地点叫蜜雪冰城，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。"
     },
     {
       "id": "food-osm-10731779705",
@@ -1891,7 +2572,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/naan.jpg",
+        "alt": "新疆馕风味参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "caption": "新疆馕风味参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "author": "HaziiDozen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%8C%E9%81%93%E6%A1%A5_%E9%A6%95%E5%BA%972.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫乡村馕坑肉，在阿勒泰一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-10731779705.mp3",
+        "shortEnd": 22.02
+      },
+      "narrationShort": "这处餐饮地点叫乡村馕坑肉，在阿勒泰一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。"
     },
     {
       "id": "food-osm-12022797123",
@@ -1931,7 +2628,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/restaurant-burger.jpg",
+        "alt": "汉堡品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "caption": "汉堡品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "author": "Renee Comet (photographer)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACheeseburger.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫Marrybrown，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-12022797123.mp3",
+        "shortEnd": 13.127
+      },
+      "narrationShort": "这处餐饮地点叫Marrybrown，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。"
     },
     {
       "id": "food-osm-12558770579",
@@ -1970,7 +2683,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/naan.jpg",
+        "alt": "新疆馕风味参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "caption": "新疆馕风味参考，非此店实拍，也不代表店内菜单。页面缩放与裁切展示。",
+        "author": "HaziiDozen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%8C%E9%81%93%E6%A1%A5_%E9%A6%95%E5%BA%972.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫姑娘追早餐屋，在阿勒泰一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-12558770579.mp3",
+        "shortEnd": 22.215
+      },
+      "narrationShort": "这处餐饮地点叫姑娘追早餐屋，在阿勒泰一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。"
     },
     {
       "id": "food-osm-13086590601",
@@ -2010,7 +2739,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/restaurant-burger.jpg",
+        "alt": "汉堡品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "caption": "汉堡品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "author": "Renee Comet (photographer)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACheeseburger.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫麦当劳，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-13086590601.mp3",
+        "shortEnd": 21.656
+      },
+      "narrationShort": "这处餐饮地点叫麦当劳，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。"
     },
     {
       "id": "food-osm-13100748801",
@@ -2050,7 +2795,23 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/restaurant-burger.jpg",
+        "alt": "汉堡品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "caption": "汉堡品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "author": "Renee Comet (photographer)",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3ACheeseburger.jpg",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫麦当劳，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-13100748801.mp3",
+        "shortEnd": 21.656
+      },
+      "narrationShort": "这处餐饮地点叫麦当劳，在乌鲁木齐一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。"
     },
     {
       "id": "food-osm-13152226901",
@@ -2089,7 +2850,209 @@
           "title": "点单和行程安排",
           "text": "建议先看菜单，问清价格、份量、肉类和辣度，再按人数点餐。距离是直线距离，不能当作实际步行或乘车时间；请给回到酒店、车辆集合或送机留出余量。"
         }
-      ]
+      ],
+      "photo": {
+        "src": "images/restaurant-pizza.jpg",
+        "alt": "披萨品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "caption": "披萨品类示意，并非此店实拍。页面缩放与裁切展示。",
+        "author": "Nicholas Gemini",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File%3APizza_Margherita.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "illustrative": true
+      },
+      "narration": "这处餐饮地点叫必胜客，在独山子一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。到店后先看看菜单，问清口味、分量和等餐时间，再按人数点餐。行程赶时间的话，记得把返回集合点的路程也算进去。",
+      "audio": {
+        "src": "audio/food-osm-13152226901.mp3",
+        "shortEnd": 21.512
+      },
+      "narrationShort": "这处餐饮地点叫必胜客，在独山子一带。如果你正好在附近找地方吃饭，可以先打开地图看看位置，再确认一下当天是否营业。这里收录的是公开地图上的地点信息，图片是品类或沿途风味参考，并不是这家店的实拍。"
+    }
+  ],
+  "journeyStories": [
+    {
+      "id": "road-s21",
+      "day": 2,
+      "title": "S21：穿过准噶尔的沙海",
+      "summary": "从天池的山地湖泊转向古尔班通古特沙漠，留意开阔地形、沙丘与公路边的固沙设施。",
+      "narration": "第二天经过沙漠公路时，可以把目光从远山移到公路两旁。这条叫阿乌高速的路，穿过准噶尔盆地里的古尔班通古特沙漠，把乌鲁木齐和阿勒泰连起来。要是看到沙地上整齐的小方格，那是帮助防风固沙的设施。沙漠公路背后，不只有修路的故事，也有怎样让道路与沙地相处的学问。车窗外的沙丘、低矮植物和远处山影，可以慢慢比较。这一段主要在车上欣赏，停车休息听司机和导游安排。",
+      "sources": [
+        {
+          "title": "新疆交通运输厅：S21阿乌高速通车",
+          "url": "https://jtyst.xinjiang.gov.cn/xjjtysj/mtkjt/202112/3f0ccc71faa743a897314601be03b229.shtml"
+        },
+        {
+          "title": "新疆交通运输厅：S21沿线防风固沙",
+          "url": "https://jtyst.xinjiang.gov.cn/xjjtysj/mtkjt/202105/7f2a325598f7406c83e4dca7514a7241.shtml"
+        }
+      ],
+      "audio": {
+        "src": "audio/road-s21.mp3",
+        "shortEnd": 14.325
+      },
+      "narrationShort": "第二天经过沙漠公路时，可以把目光从远山移到公路两旁。这条叫阿乌高速的路，穿过准噶尔盆地里的古尔班通古特沙漠，把乌鲁木齐和阿勒泰连起来。",
+      "photo": {
+        "src": "images/road-s21.jpg",
+        "alt": "S21阿乌高速穿越古尔班通古特沙漠",
+        "caption": "S21阿乌高速穿越古尔班通古特沙漠，2021年报道资料图。页面缩放与裁切展示。",
+        "author": "崔剑 / 新疆交通运输厅转载",
+        "sourceUrl": "https://jtyst.xinjiang.gov.cn/xjjtysj/mtkjt/202112/3f0ccc71faa743a897314601be03b229.shtml"
+      }
+    },
+    {
+      "id": "road-ahe",
+      "day": 3,
+      "title": "阿禾公路：森林与牧场之间",
+      "summary": "阿勒泰到禾木的公路串起森林、峡谷、草原和湿地；牧民转场让这片风景有了季节的节奏。",
+      "narration": "从阿勒泰去禾木，路上的变化就很值得看。阿禾公路串起森林、峡谷、草原和湿地，转过一道山弯，景色可能就换了模样。沿线的托勒海特一带，牧民会随季节带着牲畜迁移，夏天到草场，秋天再转场离开。所以九月经过时，看到什么，要看当年的天气和转场进度。可以留意林地与草地怎样交接，也看看村庄与山谷的关系。这些地方有居民自己的生活节奏，若遇到牛羊过路，就安静等它们通过。",
+      "sources": [
+        {
+          "title": "交通运输部：阿禾公路串联多种地貌",
+          "url": "https://big5.mot.gov.cn/gate/big5/www.mot.gov.cn/xinwen/jiaotongyaowen/202605/t20260508_4205055.html"
+        },
+        {
+          "title": "新疆生产建设兵团：阿禾公路沿途游玩景点推荐",
+          "url": "https://www.xjbt.gov.cn/c/2025-09-16/8443123.shtml"
+        }
+      ],
+      "audio": {
+        "src": "audio/road-ahe.mp3",
+        "shortEnd": 21.369
+      },
+      "narrationShort": "从阿勒泰去禾木，路上的变化就很值得看。阿禾公路串起森林、峡谷、草原和湿地，转过一道山弯，景色可能就换了模样。沿线的托勒海特一带，牧民会随季节带着牲畜迁移，夏天到草场，秋天再转场离开。",
+      "photo": {
+        "src": "images/hemu.jpg",
+        "alt": "禾木河畔的村落与木屋",
+        "caption": "阿禾公路目的地禾木的村落与山林资料图，非整段道路景象。页面缩放与裁切展示。",
+        "author": "Bohao Zhao Tongfei",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hemu_River_and_Mongolian_Village.jpg",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "illustrative": false
+      }
+    },
+    {
+      "id": "road-altai-urho",
+      "day": 4,
+      "title": "离开阿尔泰山：从林海到戈壁",
+      "summary": "把喀纳斯的山林湖水与乌尔禾的开阔戈壁连起来看，感受北疆不同地区的景观差异。",
+      "narration": "第四天离开喀纳斯，去往乌尔禾，可以给这一天拍一组有趣的对照照片。喀纳斯在阿尔泰山中，湖泊和森林围着山谷展开；乌尔禾则在准噶尔盆地西北缘，以戈壁和雅丹景观闻名。两个地方放在一起，北疆的层次就出来了。途中不妨留意山的轮廓、树木的多少，还有天空在画面里占了多大一片。这是对行程两端风景的比较，具体经过哪些路段、能看到什么，仍跟着当天车辆的实际路线来。",
+      "sources": [
+        {
+          "title": "文化和旅游部：阿勒泰地区喀纳斯景区",
+          "url": "https://sjfw.mct.gov.cn/site/dataservice/culdetails?curId=10&id=35123"
+        },
+        {
+          "title": "乌尔禾区政府：旅游景区基本情况",
+          "url": "https://www.weh.gov.cn/weh/ly1/202505/36181c14f6d44d87914615d7f6ffa853.shtml"
+        }
+      ],
+      "audio": {
+        "src": "audio/road-altai-urho.mp3",
+        "shortEnd": 17.893
+      },
+      "narrationShort": "第四天离开喀纳斯，去往乌尔禾，可以给这一天拍一组有趣的对照照片。喀纳斯在阿尔泰山中，湖泊和森林围着山谷展开；乌尔禾则在准噶尔盆地西北缘，以戈壁和雅丹景观闻名。",
+      "photo": {
+        "src": "images/devil.jpg",
+        "alt": "乌尔禾魔鬼城的雅丹岩体",
+        "caption": "当天目的地乌尔禾的雅丹景观资料图。页面缩放与裁切展示。",
+        "author": "M3th04",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E7%96%86%E4%B9%8C%E5%B0%94%E7%A6%BE%E9%AD%94%E9%AC%BC%E5%9F%8E%E6%99%AF%E8%A7%82.jpg",
+        "license": "CC0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+        "illustrative": false
+      }
+    },
+    {
+      "id": "road-urho-sayram",
+      "day": 5,
+      "title": "从雅丹到高山湖：一天两种风景",
+      "summary": "乌尔禾位于准噶尔盆地西北缘，赛里木湖则坐落在天山西段的高山盆地；两地值得对照着看。",
+      "narration": "第五天的风景跨度很大：前半天看魔鬼城的雅丹，后面去见赛里木湖。乌尔禾在准噶尔盆地西北缘，赛里木湖却藏在天山西段的高山盆地里。记住这两个位置，比只记一串景点名字更容易理解这趟旅程。看过雅丹岩体的纹理，再看湖水与周围山脉的关系，会有很鲜明的对照。路上可以选自己喜欢的几处远景留作记录；湖边的风和城里不同，外套放在随手能拿到的地方，到达后再按安排慢慢看湖。",
+      "sources": [
+        {
+          "title": "乌尔禾区政府：旅游景区基本情况",
+          "url": "https://www.weh.gov.cn/weh/ly1/202505/36181c14f6d44d87914615d7f6ffa853.shtml"
+        },
+        {
+          "title": "新疆文旅厅：美景如画的赛里木湖",
+          "url": "https://wlt.xinjiang.gov.cn/wlt/wxgzpt/201607/1d16c3e708524c1d8bfa681a605386d6.shtml"
+        }
+      ],
+      "audio": {
+        "src": "audio/road-urho-sayram.mp3",
+        "shortEnd": 14.351
+      },
+      "narrationShort": "第五天的风景跨度很大：前半天看魔鬼城的雅丹，后面去见赛里木湖。乌尔禾在准噶尔盆地西北缘，赛里木湖却藏在天山西段的高山盆地里。",
+      "photo": {
+        "src": "images/sayram.jpg",
+        "alt": "赛里木湖湖面与岸边草地",
+        "caption": "当天目的地赛里木湖及周围山地资料图。页面缩放与裁切展示。",
+        "author": "George Lu",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Sailimu,_aka_Sayram.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+      }
+    },
+    {
+      "id": "road-sayram-pasture",
+      "day": 6,
+      "title": "赛湖草场：跟着季节生活",
+      "summary": "湖边草场也是牧业生活的一部分。9月24日已过当地2026年公布的夏牧时段，不能按夏季照片期待成群牛羊。",
+      "narration": "第二次来到赛里木湖，可以把视线从蓝色湖面移向周围草场。这里的风景也连着牧民的生活，什么时候进草场、什么时候转出去，都有季节和草原管护的安排。当地公布的二〇二六年夏草场时段，到九月十日结束。我们这条行程是九月二十四日再游湖，所以不一定还能见到夏天照片里的牛羊和帐篷。不妨看看草色、山坡和湖岸的变化，感受秋天自己的样子。经过牧场时沿开放道路走，给草地和牲畜留些空间。",
+      "sources": [
+        {
+          "title": "博乐市林草局：2026年赛里木湖夏季转场时段",
+          "url": "https://www.xjbl.gov.cn/xjbl/c126492/202606/3aa264cb65644fdc8b778452655b635b.shtml"
+        },
+        {
+          "title": "新疆文旅厅：赛里木湖周围牧场",
+          "url": "https://wlt.xinjiang.gov.cn/wlt/wxgzpt/201607/1d16c3e708524c1d8bfa681a605386d6.shtml"
+        }
+      ],
+      "audio": {
+        "src": "audio/road-sayram-pasture.mp3",
+        "shortEnd": 15.184
+      },
+      "narrationShort": "第二次来到赛里木湖，可以把视线从蓝色湖面移向周围草场。这里的风景也连着牧民的生活，什么时候进草场、什么时候转出去，都有季节和草原管护的安排。",
+      "photo": {
+        "src": "images/sayram.jpg",
+        "alt": "赛里木湖湖面与岸边草地",
+        "caption": "赛里木湖与草场的历史资料图，不代表9月24日现场草色或牧业活动。页面缩放与裁切展示。",
+        "author": "George Lu",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Sailimu,_aka_Sayram.jpg",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+      }
+    },
+    {
+      "id": "road-s101",
+      "day": 7,
+      "title": "S101：天山北坡的地理画廊",
+      "summary": "沿途丹霞、峡谷、草地与河谷相接；除了山体颜色，也可以看看道路如何连起村庄与牧场。",
+      "narration": "第七天经过省道一零一线时，车窗就是一个很好的观景框。这条路常被叫作天山地理画廊，沿线串起丹霞、峡谷、河谷和草原。看到带颜色的山体时，可以先看整片山的层次，再留意一道道纹路；转到河谷，画面的线条又会变得柔和些。道路也把天山北坡的村庄和农牧业生活连在一起。行程里还安排了肯斯瓦特外观游览，具体能经过哪段彩色山体、在哪里停车，要看当天路线和现场条件，安心在允许的位置欣赏就好。",
+      "sources": [
+        {
+          "title": "新疆文旅厅：打造S101天山地理画廊",
+          "url": "https://wlt.xinjiang.gov.cn/wlt/wltyw/202204/807bc34883fc444591f7bec9784c65af.shtml"
+        },
+        {
+          "title": "新疆文旅厅：天山北坡S101旅游圈",
+          "url": "https://wlt.xinjiang.gov.cn/wlt/hydt/202204/82760d8dab864c7d99a7501ae702fce8.shtml"
+        }
+      ],
+      "audio": {
+        "src": "audio/road-s101.mp3",
+        "shortEnd": 23.7
+      },
+      "narrationShort": "第七天经过省道一零一线时，车窗就是一个很好的观景框。这条路常被叫作天山地理画廊，沿线串起丹霞、峡谷、河谷和草原。看到带颜色的山体时，可以先看整片山的层次，再留意一道道纹路；转到河谷，画面的线条又会变得柔和些。",
+      "photo": {
+        "src": "images/kenswat.jpg",
+        "alt": "肯斯瓦特水库的蓝绿水面与周围山谷",
+        "caption": "当天行程中的肯斯瓦特河谷资料图，非S101所有路段景象。页面缩放与裁切展示。",
+        "author": "玛纳斯县人民政府网 / 兵团水利局转载",
+        "sourceUrl": "https://btslj.xjbt.gov.cn/c/2025-07-13/8423871.shtml"
+      }
     }
   ]
 }
