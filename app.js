@@ -2,21 +2,23 @@ import {distanceKm,activeDay,selectPoints} from './model.js';
 import {mountWeather} from './weather-panel.js';
 import {mountVoice} from './voice-guide.js';
 import {photoMarkup} from './media.js';
+import {amapMarkerUrl} from './map-links.js';
+import {mountMapBackground} from './map-background.js';
+import {renderRoutePanel} from './route-panel.js';
 const $=id=>document.getElementById(id),labels={scenery:'风景',culture:'文化',food:'美食'};
 const state={day:activeDay(),category:'all',range:'route',position:null};
-let data,map,placesLayer,routeLayer,userLayer,watchId,weatherPanel,voiceGuide,locating=false,lastPositionAt=0;
+let data,map,placesLayer,routeLayer,userLayer,mapBackground,lastMapItems=[],watchId,weatherPanel,voiceGuide,locating=false,lastPositionAt=0;
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const distance=p=>p.distance==null?'':p.distance<.1?'不足 100 米':p.distance<1?Math.round(p.distance*20)*50+' 米':p.distance.toFixed(1)+' 公里';
 const anchorOf=p=>p.location||data.anchors[p.anchor];
 const categoryText=p=>p.kind==='dish'?'地方风味':p.kind==='restaurant'?'餐饮地点':p.kind==='regional'?'地区文化':labels[p.category];
 function mapSetup(){
- if(!window.L){$('map-error').hidden=false;return;}
+ if(!window.L){$('map-error').textContent='路线图暂未加载，可使用下方的每日地点和高德地图入口。';$('map-error').hidden=false;$('map-mode').disabled=true;return;}
  map=L.map('map',{scrollWheelZoom:false}).setView([46,85.5],5);
- let loaded=0;
- const tiles=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'© <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>'}).addTo(map);
- tiles.on('tileload',()=>{loaded++;$('map-error').hidden=true;});
- tiles.on('tileerror',()=>{if(!loaded)$('map-error').hidden=false;});
+ map.createPane('user-location').style.zIndex='650';
  routeLayer=L.layerGroup().addTo(map);placesLayer=L.layerGroup().addTo(map);userLayer=L.layerGroup().addTo(map);
+ mapBackground=mountMapBackground(map,()=>renderMap(lastMapItems));
+ map.on('zoomend',()=>{if(mapBackground?.mode==='schematic')renderMap(lastMapItems);});
 }
 function routeCoords(){
  const selected=state.day?data.days.filter(d=>d.day===state.day):data.days;
@@ -28,15 +30,21 @@ function fit(){
  const coords=routeCoords();if(coords.length===1)map.setView(coords[0],11);else map.fitBounds(coords,{padding:[28,36],maxZoom:12});
 }
 function renderMap(items){
+ lastMapItems=items;
  if(!map)return;
  routeLayer.clearLayers();placesLayer.clearLayers();
- const coords=routeCoords();
- if(coords.length>1)L.polyline(coords,{color:'#167d9e',weight:3,opacity:.7,dashArray:'7 8'}).addTo(routeLayer);
+ const selected=state.day?data.days.filter(d=>d.day===state.day):data.days;
+ selected.forEach(d=>{
+  const segments=d.day===6?[[d.route[0],d.route[1]],[d.route[0],d.route[2]]]:[d.route];
+  segments.forEach(ids=>{const coords=ids.map(id=>{const a=data.anchors[id];return [a.lat,a.lon];});if(coords.length>1)L.polyline(coords,{color:'#167d9e',weight:3,opacity:.7,dashArray:'7 8'}).addTo(routeLayer);});
+ });
  const anchors=state.day?data.days[state.day-1].route:[...new Set(data.days.flatMap(d=>d.route))];
- anchors.forEach((id,i)=>{const a=data.anchors[id];L.marker([a.lat,a.lon],{icon:L.divIcon({className:'route-pin',html:String(i+1),iconSize:[30,30],iconAnchor:[15,15]}),title:a.name}).bindTooltip(esc(a.name)).addTo(routeLayer);});
+ const labeled=[];
+ anchors.forEach((id,i)=>{const a=data.anchors[id],pixel=map.latLngToContainerPoint([a.lat,a.lon]);const permanent=mapBackground?.mode!=='online'&&!labeled.some(p=>Math.abs(p.x-pixel.x)<90&&Math.abs(p.y-pixel.y)<50);if(permanent)labeled.push(pixel);L.marker([a.lat,a.lon],{icon:L.divIcon({className:'route-pin',html:String(i+1),iconSize:[30,30],iconAnchor:[15,15]}),title:a.name,zIndexOffset:1000}).bindTooltip(esc(a.name),{permanent,direction:'top',className:'route-label',offset:[0,-13]}).bindPopup('<strong>'+esc(a.name)+'</strong><br><a href="'+esc(amapMarkerUrl(a))+'" target="_blank" rel="noopener">用高德查看地点</a>').addTo(routeLayer);});
  items.filter(p=>p.kind!=='dish'&&p.kind!=='regional').forEach(p=>{const a=anchorOf(p);L.marker([a.lat,a.lon],{icon:L.divIcon({className:'point-pin '+p.category,iconSize:[14,14],iconAnchor:[7,7]}),title:p.name}).bindTooltip(esc(p.name)).on('click',()=>showDetail(p.id)).addTo(placesLayer);});
 }
 function renderItinerary(){
+ renderRoutePanel(data,state.day);
  const d=data.days.find(d=>d.day===state.day);
  $('itinerary').innerHTML=d?'<h2 id="itinerary-title">D'+d.day+' · '+esc(d.name)+'</h2><p>'+esc(d.text)+'</p><p class="note">'+esc(d.note)+'</p>':'<h2 id="itinerary-title">9 月 19 — 26 日 · 北疆 8 日</h2><p>乌鲁木齐 → 天池 → 阿勒泰 → 禾木 → 喀纳斯 → 乌尔禾 → 赛里木湖 → 独山子 → 乌鲁木齐</p><p class="note">D1 为自由活动；D6 住宿为独山子 / 奎屯二选一，具体以出团通知为准。</p>';
  renderJourney();
@@ -77,7 +85,7 @@ function showDetail(id){
  const a=anchorOf(p),d=state.position?distanceKm(state.position,a):null;
  const osm=a.osm?'https://www.openstreetmap.org/'+a.osm:'https://www.openstreetmap.org/?mlat='+a.lat+'&mlon='+a.lon+'#map=16/'+a.lat+'/'+a.lon;
  const regional=p.kind==='dish'||p.kind==='regional';
- const external='https://uri.amap.com/marker?position='+a.lon+','+a.lat+'&name='+encodeURIComponent(p.name+(regional?' · 相关地区':''))+'&coordinate=wgs84&src=beijiang-suixing&callnative=0';
+ const external=amapMarkerUrl(a,p.name+(regional?' · 相关地区':''));
  $('detail-content').innerHTML='<span class="badge '+p.category+'">'+categoryText(p)+'</span><h2>'+esc(p.name)+'</h2><p class="detail-meta">'+esc(a.area||a.name||'沿途地点')+' · '+p.days.map(n=>'D'+n).join(' / ')+(d==null?'':' · 直线约 '+d.toFixed(1)+' 公里')+'</p>'+photoMarkup(p,{detail:true})+'<section class="detail-summary"><h3>简介</h3><p>'+esc(p.summary)+'</p><p>'+esc(p.body)+'</p></section><div class="listen-actions"><button type="button" id="listen-summary">听简介</button><button type="button" id="listen-details">听详细介绍</button></div><section class="expanded-details"><h3>详细介绍</h3>'+(p.details||[]).map(s=>'<h4>'+esc(s.title)+'</h4><p>'+esc(s.text)+'</p>').join('')+'</section><p class="detail-tip">'+esc(p.tip)+'</p>'+(regional?'<p class="detail-meta">位置表示相关地区，不是餐馆或文化场馆的准确地址。</p>':'')+(p.kind==='restaurant'?'<p class="detail-meta">依据公开地图收录。未核实当前营业状态、价格或评分，出发前请再次查看。</p>':'')+'<div class="detail-actions"><button type="button" id="show-on-map">'+(regional?'查看相关区域':'地图上查看')+'</button><a href="'+esc(external)+'" target="_blank" rel="noopener">用高德查看'+(regional?'区域':'地点')+'</a></div><p class="source">'+(p.sources||[]).map(s=>'<a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.title)+'</a>').join('')+'<a href="'+esc(osm)+'" target="_blank" rel="noopener">地图位置来源</a><br>资料整理：'+data.verified+'。'+'</p>';
  $('show-on-map').onclick=()=>{$('detail').close();if(map){map.setView([a.lat,a.lon],regional?11:14);L.popup().setLatLng([a.lat,a.lon]).setContent(esc(p.name)+(regional?' · 地区参考':'')).openOn(map);$('map').scrollIntoView({behavior:'smooth',block:'center'});}else $('map-error').hidden=false;};
  $('listen-summary').onclick=()=>voiceGuide?.read(p,false);
@@ -90,7 +98,7 @@ function acceptPosition(pos,focus=false){
  if(document.hidden){locating=false;$('locate').disabled=false;$('locate').textContent='刷新位置';return;}
  state.position={lat:c.latitude,lon:c.longitude,accuracy:c.accuracy,timestamp:pos.timestamp};lastPositionAt=Date.now();
  $('location-status').textContent='已定位 · 精度约 '+Math.round(c.accuracy)+' 米';$('locate').textContent='刷新位置';$('locate').disabled=false;locating=false;
- if(map){userLayer.clearLayers();L.circle([c.latitude,c.longitude],{radius:c.accuracy,color:'#2868cc',fillOpacity:.08,weight:1}).addTo(userLayer);L.circleMarker([c.latitude,c.longitude],{radius:7,color:'#fff',weight:3,fillColor:'#2868cc',fillOpacity:1}).bindTooltip('我的位置').addTo(userLayer);if(focus)map.setView([c.latitude,c.longitude],13);}
+ if(map){userLayer.clearLayers();L.circle([c.latitude,c.longitude],{radius:c.accuracy,color:'#2868cc',fillOpacity:.08,weight:1}).addTo(userLayer);L.circleMarker([c.latitude,c.longitude],{pane:'user-location',radius:7,color:'#fff',weight:3,fillColor:'#2868cc',fillOpacity:1}).bindTooltip('我的位置').addTo(userLayer);if(focus)map.setView([c.latitude,c.longitude],13);}
  render();voiceGuide?.onPosition(state.position);
 }
 function beginWatch(){
