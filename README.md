@@ -4,9 +4,9 @@
 
 ## 使用
 
-- 顶部选择全程或某一天，默认显示本地绘制的路线示意图，可缩放、查看标记和自己的位置，不向海外地图服务器请求底图。虚线表示行程顺序，不是公路；D6 独山子与奎屯为住宿二选一。
-- 点击“高德地图”或路线标记中的链接，在高德网页查看真实地图。“每日地点与路段查询”列出每日停留地点，也可按名称在百度查询路段，请确认实际景区入口。高德地点链接明确使用 WGS84；百度按地点名称匹配，避免把湖区中心坐标当成驾车入口。国内地图通过官方网页链接打开，无需本项目申请 API Key。
-- 可手动切换“在线底图 · OSM”。若请求失败或超过 8 秒仍未完成，自动恢复路线示意图；网络恢复后可重新选择在线底图。此功能不保证每个地区、运营商或 GitHub Pages 本身的网络可达性。
+- 顶部选择全程或某一天，高德在线地图直接在网页中显示，行程路线、景点和自己的位置叠加在地图上。支持拖动和缩放；点击景点在本页查看介绍。虚线表示行程顺序，不是导航公路；D6 独山子与奎屯为住宿二选一。
+- 地图加载失败时在原位置显示提示，可点击“重新加载地图”。底图、行程地点和定位点分别显示加载结果，地点转换失败时已加载的底图仍可使用。
+- “每日地点与路段查询”提供可选的高德地点、百度路段链接；它们不替代本页在线地图。百度按地点名称匹配，请确认景区入口。
 - 点击“定位到我”，允许浏览器定位后查看已收录的附近风景、文化和餐饮地点。
 - “全部”汇总三个分类；点卡片查看简介和详细介绍，也可分别收听。
 - 每天气温可选择行程日期，或未来 3 / 7 / 14 天（含今天），并选择沿途地点。打开网页自动同步，可手动刷新。数据源最多提供 16 天预报；缺失数值不会用猜测或季节平均代替。超过一小时的数据会显示“上次数据”；更新失败保留缓存及时间。过去日期返回的天气标为模型数据。
@@ -17,24 +17,26 @@
 
 ## 发布与本地运行
 
-本项目为纯静态 HTML / CSS / JavaScript，无账号系统、无后端、无需 API 密钥。
+网页为静态 HTML / CSS / JavaScript，无用户账号系统和服务器，浏览器直接连接高德地图。使用者不需要注册地图账号或申请 Key。
+
+本站使用旅行专用的“Web端（JS API）”Key，域名白名单为 `signatures1984.github.io`。所有者已明确同意将普通 Key 和配套 `securityJsCode` 一起放在 `map-config.js` 中公开，以免配置额外服务器。这是高德提供的便捷开发方式；官方不建议用于生产环境，因为域名限制不能完全防止公开密钥被滥用、消耗额度。官方说明：https://lbs.amap.com/api/javascript-api-v2/guide/abc/jscode 。复制本项目时应在 https://console.amap.com/dev/key/app 创建自己的 Key 并更换配置，不要使用本站 Key。将来如需服务端保护，可移除 `securityJsCode` 并配置以 `/_AMapService` 结尾的 HTTPS `serviceHost`，由服务器保管密钥。GitHub Actions 构建时注入 JavaScript 仍会公开密钥。缺少配置时明确显示“在线地图待配置”。
 
 GitHub Pages 使用 main 分支根目录发布，保留 `.nojekyll`。网页与代码公开，包含行程和出发日期；别人打开网页不需要 GitHub 或 ChatGPT 账号。
 
-本地预览：安装 Node.js 后，在本目录运行 `node preview.mjs`，用浏览器打开输出的 localhost 地址。直接双击 `index.html` 的 file:// 方式可能无法加载数据或定位。跨设备分享建议使用 HTTPS 的 Pages 链接。路线示意图随页面加载；首次打开网站、高德/百度地图、可选在线底图和实时天气仍需网络，这不是可离线启动的完整地图应用。
+本地预览：安装 Node.js 后，在本目录运行 `node preview.mjs`，用浏览器打开输出的 localhost 地址。直接双击 `index.html` 的 file:// 方式可能无法加载数据或定位。跨设备分享建议使用 HTTPS 的 Pages 链接。在线地图、天气及首次打开网站需要网络，这不是可离线启动的完整地图应用。GitHub Pages 主站可达性与地图服务可达性是两件事。
 
 ## 数据与隐私
 
 - 携程行程：https://m.ctrip.com/webapp/xtour/detail?productId=28776261&departCityId=30&pkgType=multiline&lineProductId=28776261
-- 地点、地图和播报区域：© OpenStreetMap 贡献者，ODbL，https://www.openstreetmap.org/copyright 。收录快照不代表实时营业状态或附近所有商家。
+- 地点和播报区域：© OpenStreetMap 贡献者，ODbL，https://www.openstreetmap.org/copyright 。收录快照不代表实时营业状态或附近所有商家。在线底图由高德地图提供，版权标识保留在地图内。
 - 天气：Open-Meteo，CC BY 4.0，https://open-meteo.com/ 。请求的是固定行程地点的预报，不发送用户 GPS 给天气服务。
 - 景点、文化、美食的事实来源列在每条详情中，阅读和品尝建议为编辑建议。餐馆未核实当前价格、评分、营业状态，出发前请再次确认。
 - 赛里木湖照片：George Lu，CC BY 2.0，https://commons.wikimedia.org/wiki/File:Lake_Sailimu,_aka_Sayram.jpg 。历史照片，完整画面缩放展示。
 - 其余照片的作者、来源和许可分别列在条目详情和 `data/trip.json`。餐馆使用注明的菜品类别或风味参考图，并非店铺实拍，也不代表实际菜单；部分文化、食物使用资料或物种参考图。政府资料图片版权归原作者，未标为开放许可。
 - 语音为 AI 合成，不是真人录音；音频随网站托管，运行时不向语音生成服务发送位置或文本。
 - 地图库 Leaflet 1.9.4 使用 BSD-2-Clause，见 vendor/leaflet-LICENSE.txt。
-- 不上传、保存或分享用户 GPS 轨迹。定位仅在当前页面内用于距离、地图与播报；主动选择在线底图时，地图服务按当前视图加载瓦片。高德/百度链接只在点击时打开，链接包含所选行程地点或名称，不包含用户 GPS。天气缓存存于当前设备，自动播报记录只保留到页面关闭或刷新。无分析跟踪代码。
+- 不记录或分享用户 GPS 轨迹。定位在当前页面内用于距离与播报；为将位置准确叠加到高德底图，当前 GPS 坐标会直接交给高德转换。距离与播报范围仍按原始 WGS84 坐标计算。高德/百度外部链接只在点击时打开，链接包含所选行程地点或名称，不包含用户 GPS。天气缓存存于当前设备，自动播报记录只保留到页面关闭或刷新。无分析跟踪代码。
 
 ## 文件
 
-`index.html` 和 `styles.css` 为界面，`app.js` / `model.js` 处理地图与筛选，`map-background.js` 处理底图模式与失败恢复，`map-links.js` / `route-panel.js` 处理国内地图链接和每日地点，`weather*.js` 处理天气，`voice*.js` / `narrator.js` 处理语音，`media.js` 处理配图。内容数据位于 `data/trip.json`，播报范围位于 `data/voice-areas.json`；图片和音频位于 `images/`、`audio/`。所有资源使用相对路径，支持 GitHub Pages 项目子目录。
+`index.html` 和 `styles.css` 为界面，`app.js` / `model.js` 处理行程与筛选，`map-config.js` 保存公开地图配置，`amap-loader.js` / `amap-map.js` / `amap-coordinates.js` 处理高德加载、交互、重试与坐标转换，`map-links.js` / `route-panel.js` 处理可选外部地图链接和每日地点，`weather*.js` 处理天气，`voice*.js` / `narrator.js` 处理语音，`media.js` 处理配图。内容数据位于 `data/trip.json`，播报范围位于 `data/voice-areas.json`；图片和音频位于 `images/`、`audio/`。所有资源使用相对路径，支持 GitHub Pages 项目子目录。
