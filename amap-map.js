@@ -103,6 +103,7 @@ export function mountAMap(data,onDetail,{doc=document,config=mapConfig,loadSDK=c
    A=await loadSDK(config);if(disposed||run!==generation)return;
    converter=makeConverter(A);
    map=new A.Map(container,{viewMode:'2D',center:[85.5,46.2],zoom:6,zooms:[3,18],scrollWheel:false});
+   map.addControl(new A.ToolBar({position:{top:'12px',right:'12px'}}));
    onComplete=()=>{if(run===generation&&!disposed){baseReady=true;cancelTimer();delete issues.base;syncStatus();}};
    map.on('complete',onComplete);
    loadTimer=setTimer(()=>{if(run===generation&&!disposed&&!baseReady){issues.base='在线地图加载超时，请检查网络后重试。';syncStatus();}},15000);

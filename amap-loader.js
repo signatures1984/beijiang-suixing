@@ -19,7 +19,7 @@ export function createAMapLoader({win=window,doc=document,setTimer=setTimeout,cl
   if(pending)return pending;
   identity=requested;
   win._AMapSecurityConfig=host?{serviceHost:host}:{securityJsCode:code};
-  if(win.AMap?.Map&&win.AMap?.convertFrom)return Promise.resolve(win.AMap);
+  if(win.AMap?.Map&&win.AMap?.convertFrom&&win.AMap?.ToolBar)return Promise.resolve(win.AMap);
   pending=new Promise((resolve,reject)=>{
    const callback='__beijiangAMapReady'+(++sequence),script=doc.createElement('script');let done=false,timer;
    const finish=error=>{
@@ -28,9 +28,9 @@ export function createAMapLoader({win=window,doc=document,setTimer=setTimeout,cl
     win[callback]=()=>{};
     if(error){script.remove();reject(error);}else resolve(win.AMap);
    };
-   win[callback]=()=>finish(win.AMap?.Map&&win.AMap?.convertFrom?null:new Error('Map SDK unavailable'));
+   win[callback]=()=>finish(win.AMap?.Map&&win.AMap?.convertFrom&&win.AMap?.ToolBar?null:new Error('Map SDK unavailable'));
    script.async=true;
-   script.src='https://webapi.amap.com/maps?'+new URLSearchParams({v:'2.0',key,callback});
+   script.src='https://webapi.amap.com/maps?'+new URLSearchParams({v:'2.0',key,callback,plugin:'AMap.ToolBar'});
    script.onerror=()=>finish(new Error('Map SDK failed to load'));
    timer=setTimer(()=>finish(new Error('Map SDK timed out')),15000);
    doc.head.appendChild(script);
