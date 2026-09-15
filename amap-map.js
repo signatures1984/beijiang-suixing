@@ -1,5 +1,5 @@
 import {mapConfig} from './map-config.js';
-import {createAMapLoader} from './amap-loader.js';
+import {createAMapLoader} from './amap-loader.js?v=20260915-amap';
 import {createAMapConverter} from './amap-coordinates.js';
 const keyOf=p=>p.lat+','+p.lon;
 const pointOf=(data,p)=>p.location||data.anchors[p.anchor];

@@ -3,7 +3,7 @@ import {mountWeather} from './weather-panel.js';
 import {mountVoice} from './voice-guide.js';
 import {photoMarkup} from './media.js';
 import {amapMarkerUrl} from './map-links.js';
-import {mountAMap} from './amap-map.js';
+import {mountAMap} from './amap-map.js?v=20260915-amap';
 import {renderRoutePanel} from './route-panel.js';
 const $=id=>document.getElementById(id),labels={scenery:'风景',culture:'文化',food:'美食'};
 const state={day:activeDay(),category:'all',range:'route',position:null};
