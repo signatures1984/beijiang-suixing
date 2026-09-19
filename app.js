@@ -5,9 +5,10 @@ import {photoMarkup} from './media.js';
 import {amapMarkerUrl} from './map-links.js';
 import {mountAMap} from './amap-map.js?v=20260915-amap';
 import {renderRoutePanel} from './route-panel.js';
+import {routeForPoint,renderVisitRoute,bindVisitRoute} from './visit-routes.js?v=20260919';
 const $=id=>document.getElementById(id),labels={scenery:'风景',culture:'文化',food:'美食'};
 const state={day:activeDay(),category:'all',range:'route',position:null};
-let data,map,watchId,weatherPanel,voiceGuide,locating=false,lastPositionAt=0;
+let data,map,watchId,weatherPanel,voiceGuide,visitRoutes=null,locating=false,lastPositionAt=0;
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const distance=p=>p.distance==null?'':p.distance<.1?'不足 100 米':p.distance<1?Math.round(p.distance*20)*50+' 米':p.distance.toFixed(1)+' 公里';
 const anchorOf=p=>p.location||data.anchors[p.anchor];
@@ -38,7 +39,7 @@ function renderJourney(){
 }
 function card(p){
  const area=p.location?.area||data.anchors[p.anchor]?.name||'',dayText=p.days.map(d=>'D'+d).join(' / ');
- return '<button class="place-card" type="button" data-id="'+esc(p.id)+'" aria-label="查看'+esc(p.name)+'详情">'+photoMarkup(p)+'<div class="card-inner"><div class="card-top"><span class="badge '+p.category+'">'+categoryText(p)+'</span><span class="distance">'+(p.distance==null?'':(p.kind==='dish'||p.kind==='regional'?'区域约 ':'')+distance(p))+'</span></div><h4>'+esc(p.name)+'</h4><p>'+esc(p.summary)+'</p><p class="card-meta">'+esc(area)+' · '+dayText+(p.kind==='restaurant'?' · 已收录地点':'')+'</p></div></button>';
+ return '<button class="place-card" type="button" data-id="'+esc(p.id)+'" aria-label="查看'+esc(p.name)+'详情">'+photoMarkup(p)+'<div class="card-inner"><div class="card-top"><span class="badge '+p.category+'">'+categoryText(p)+'</span><span class="distance">'+(p.distance==null?'':(p.kind==='dish'||p.kind==='regional'?'区域约 ':'')+distance(p))+'</span></div><h4>'+esc(p.name)+'</h4><p>'+esc(p.summary)+'</p>'+(routeForPoint(visitRoutes,p.id)?'<span class="visit-route-badge">含景区内游玩路线</span>':'')+'<p class="card-meta">'+esc(area)+' · '+dayText+(p.kind==='restaurant'?' · 已收录地点':'')+'</p></div></button>';
 }
 function render(){
  if(!data)return;renderItinerary();weatherPanel?.render(state.day);
@@ -68,6 +69,16 @@ function showDetail(id){
  $('show-on-map').onclick=()=>{const areaZoom={sayram:10,kanas:10,tianchi:12,kenswat:12,canyon:12}[p.anchor];$('detail').close();map?.show(a,p.name+(regional?' · 地区参考':''),areaZoom??(regional?11:14));$('map').scrollIntoView({behavior:'smooth',block:'center'});};
  $('listen-summary').onclick=()=>voiceGuide?.read(p,false);
  $('listen-details').onclick=()=>voiceGuide?.read(p,true);
+ const visitMarkup=renderVisitRoute(visitRoutes,p.id,state.day);
+ if(visitMarkup){
+  $('detail-content').querySelector('.expanded-details').insertAdjacentHTML('beforebegin',visitMarkup);
+  const routeButton=document.createElement('button');routeButton.type='button';routeButton.textContent='看游玩路线';
+  routeButton.onclick=()=>$('detail-content').querySelector('.visit-route').scrollIntoView({behavior:'smooth',block:'start'});
+  $('detail-content').querySelector('.listen-actions').prepend(routeButton);
+  bindVisitRoute($('detail-content'),visitRoutes,p.id);
+ }else if(!visitRoutes&&(p.category==='scenery'||p.id==='silk')){
+  $('detail-content').querySelector('.expanded-details').insertAdjacentHTML('beforebegin','<p class="detail-tip">景区游玩路线暂未加载，请刷新页面重试；原有景点介绍仍可查看。</p>');
+ }
  $('detail').showModal();
 }
 function stopWatch(){if(watchId!==undefined){navigator.geolocation.clearWatch(watchId);watchId=undefined;}}
@@ -101,6 +112,6 @@ function registerTools(){
  const context=document.modelContext;if(!context?.registerTool)return;const lifecycle=new AbortController();
  try{Promise.resolve(context.registerTool({name:'select_trip_view',title:'查看北疆行程',description:'切换本页行程天数和内容分类，不访问或返回用户位置。',inputSchema:{type:'object',properties:{day:{type:'integer',minimum:0,maximum:8},category:{type:'string',enum:['all','scenery','culture','food']}},required:['day','category'],additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:true},execute(input){if(!input||!Number.isInteger(input.day)||input.day<0||input.day>8||!['all','scenery','culture','food'].includes(input.category)||Object.keys(input).some(k=>!['day','category'].includes(k)))throw Error('请选择 0—8 的行程天数及有效分类。');state.day=input.day;state.category=input.category;state.range='route';$('day').value=String(state.day);$('range').value='route';document.querySelectorAll('[data-category]').forEach(t=>t.setAttribute('aria-pressed',String(t.dataset.category===state.category)));render();fit();return {day:state.day,category:state.category,places:selectPoints(data,{...state,position:null}).map(p=>({id:p.id,name:p.name}))};}},{signal:lifecycle.signal})).catch(()=>{});}catch{}window.addEventListener('pagehide',()=>lifecycle.abort(),{once:true});
 }
-try{const res=await fetch('data/trip.json');if(!res.ok)throw Error('data');data=await res.json();mapSetup();weatherPanel=mountWeather(data);render();fit();registerTools();let areas=null;try{const res=await fetch('data/voice-areas.json');if(res.ok)areas=await res.json();}catch{}voiceGuide=mountVoice(data,areas,locate);}
+try{const res=await fetch('data/trip.json');if(!res.ok)throw Error('data');data=await res.json();try{const routes=await fetch('data/visit-routes.json?v=20260919');if(routes.ok)visitRoutes=await routes.json();}catch{}mapSetup();weatherPanel=mountWeather(data);render();fit();registerTools();let areas=null;try{const res=await fetch('data/voice-areas.json');if(res.ok)areas=await res.json();}catch{}voiceGuide=mountVoice(data,areas,locate);}
 catch{$('results').innerHTML='<div class="empty"><h3>行程暂时未能加载</h3><p>请检查网络后刷新页面重试。</p><button type="button" id="reload">重新加载</button></div>';$('reload').onclick=()=>window.location.reload();}
 

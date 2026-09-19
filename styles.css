@@ -19,3 +19,22 @@
 /* Native AMap overlays keep the existing route colors and leave map credits visible. */
 #map .amap-trip-marker{display:grid;place-items:center;min-height:0;min-width:0;border:2px solid white;border-radius:50%;padding:0;color:white;font:700 12px/1 system-ui,sans-serif;box-shadow:0 2px 8px #163d4930;cursor:pointer}
 #map .amap-trip-marker:focus-visible{outline:3px solid #dd9b36;outline-offset:3px}
+.visit-route-badge{display:inline-block;margin-top:12px;padding:3px 8px;border-radius:6px;color:#276449;background:#eaf5ed;font-size:.75rem;font-weight:600}
+.visit-route{margin:25px 0;padding:20px;border:1px solid #cddfd6;border-radius:16px;background:#f5faf7;scroll-margin-top:90px}
+.visit-route-kicker{font-size:.75rem;font-weight:650;letter-spacing:.04em;color:#477760}
+.visit-route h3{font-size:1.15rem;margin:5px 0 10px}.visit-route-heading>p{font-size:.875rem;color:#46645a}
+#detail-content .visit-route-estimate{font-size:.8125rem;line-height:1.7;padding:10px 12px;border-left:3px solid #c1a15a;background:#fffbef;color:#725d31;margin:16px 0}
+.visit-route-options{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0 12px}.visit-route-options button{font-size:.875rem;padding:8px 12px;background:#fff;border-color:#cddfd6}
+.visit-route-options button[aria-pressed=true]{background:#245b44;color:#fff;border-color:#245b44}
+.visit-route-time strong{display:block;font-size:1.0625rem;color:#245b44}.visit-route-time span{display:block;margin-top:5px;font-size:.8125rem;color:#587064}
+.visit-route-path{padding:12px 14px;background:#fff;border:1px solid #d8e5dd;border-radius:10px;color:#245b44;font-size:.9375rem;line-height:1.9}.visit-route-breakdown{font-size:.75rem;color:#607a6b}
+.visit-route-point{margin:15px 0;padding:12px 14px;background:#eaf2ed;border-radius:10px}.visit-route-point h4{margin:0;font-size:.9375rem;color:#245b44}#detail-content .visit-route-point p{margin:5px 0 0;font-size:.875rem;line-height:1.8}
+#detail-content .visit-route-fit{font-size:.875rem;line-height:1.75}
+.visit-route-steps{list-style:none;counter-reset:visit-step;margin:18px 0;padding:0}.visit-route-steps li{position:relative;counter-increment:visit-step;padding:0 0 20px 34px;min-width:0}
+.visit-route-steps li::before{content:counter(visit-step);position:absolute;top:0;left:0;display:grid;place-items:center;width:24px;height:24px;border-radius:50%;background:#245b44;color:#fff;font-size:.75rem;font-weight:650}
+.visit-route-steps li:not(:last-child)::after{content:'';position:absolute;left:11px;top:29px;bottom:6px;width:1px;background:#cddfd6}
+.visit-step-heading{display:flex;align-items:baseline;justify-content:space-between;gap:8px}.visit-step-heading h4{margin:0;font-size:.9375rem;line-height:1.6}.visit-step-heading>span{font-size:.75rem;color:#577568;white-space:nowrap}
+#detail-content .visit-route-steps p{font-size:.875rem;line-height:1.8;margin:6px 0 0;color:#415a4f}
+.visit-route-cut{padding:12px 14px;border-radius:10px;background:#eaf2ed;font-size:.875rem}.visit-route-cut strong{color:#245b44}#detail-content .visit-route-cut p{margin:5px 0 0;line-height:1.8}
+.visit-route-notes{margin-top:16px;border-top:1px solid #d8e5dd;padding-top:6px;font-size:.8125rem}.visit-route-notes>summary{font-weight:600;min-height:44px}.visit-route-notes ul{padding-left:20px}.visit-route-notes li{margin:8px 0;line-height:1.8}.visit-route-date{color:#62756a}.visit-route-sources span{display:block;color:#6b7b71;font-size:.75rem}.visit-route-sources a{overflow-wrap:anywhere}
+@media(max-width:440px){.visit-route{padding:14px}.visit-step-heading{display:block}.visit-step-heading>span{display:block;margin-top:2px}.visit-route-options button{flex:1;min-width:110px}.listen-actions button{min-width:110px}}
